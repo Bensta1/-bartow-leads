@@ -2,6 +2,8 @@ import json, datetime, os, requests
 
 from bs4 import BeautifulSoup
 
+
+
 OUTPUT_FILE = "dashboard/records.json"
 
 LOOKBACK_DAYS = 30
@@ -36,58 +38,56 @@ viewstate_gen = vsg["value"] if vsg else ""
 
 event_val = ev["value"] if ev else ""
 
-print("Viewstate OK: " + str(len(viewstate) > 100))
+print("Viewstate length: " + str(len(viewstate)))
 
-BTN = "ctl100$ContentPlaceHolder1$as1$btnTool"
 
-TXT = "ctl100$ContentPlaceHolder1$as1$txtSearch"
 
-COUNTY = "ctl100$ContentPlaceHolder1$as1$lstCounty$7"
+print("=== ALL INPUTS ===")
 
-DDL = "ctl100$ContentPlaceHolder1$as1$ddlPopularSearches"
+for inp in soup.find_all("input"):
 
-for category in ["Debtors and Creditors", "Condemnations"]:
+    n = inp.get("name", "")
 
-    print("Searching: " + category)
+    t = inp.get("type", "text")
 
-    post_data = {"__VIEWSTATE": viewstate, "__VIEWSTATEGENERATOR": viewstate_gen, "__EVENTVALIDATION": event_val, "__LASTFOCUS": "", "__EVENTTARGET": "", "__EVENTARGUMENT": "", DDL: category, COUNTY: "on", BTN: "Search"}
+    v = inp.get("value", "")[:40]
 
-    r = session.post("https://georgiapublicnotice.com", data=post_data, timeout=20)
+    if n:
 
-    print("POST: " + str(r.status_code))
+        print("INPUT | type=" + t + " | name=" + n + " | val=" + v)
 
-    rsoup = BeautifulSoup(r.text, "html.parser")
 
-    print(rsoup.get_text()[200:600])
 
-    found = 0
+print("=== ALL SELECTS ===")
 
-    for tbl in rsoup.find_all("table"):
+for sel in soup.find_all("select"):
 
-        rows = tbl.find_all("tr")
+    n = sel.get("name", "")
 
-        for row in rows[1:]:
+    opts = []
 
-            cells = row.find_all("td")
+    for o in sel.find_all("option"):
 
-            if len(cells) >= 2:
+        opts.append(o.get("value","") + "=" + o.get_text().strip())
 
-                name_text = cells[0].get_text().strip()
+    print("SELECT | name=" + n + " | options=" + str(opts[:10]))
 
-                if name_text and len(name_text) > 2:
 
-                    found += 1
 
-                    records.append({"name": name_text, "address": cells[1].get_text().strip() if len(cells) > 1 else "", "date": cells[2].get_text().strip() if len(cells) > 2 else "", "doc_type": category, "county": "Bartow", "state": "GA"})
+print("=== ALL FORMS ===")
 
-    print("Found: " + str(found))
+for form in soup.find_all("form"):
 
-print("TOTAL: " + str(len(records)))
+    print("FORM action=" + str(form.get("action","")) + " method=" + str(form.get("method","")))
+
+
+
+print("Done - check logs above for field names")
 
 os.makedirs("dashboard", exist_ok=True)
 
 with open(OUTPUT_FILE, "w") as f:
 
-    json.dump({"fetched_at": datetime.datetime.utcnow().isoformat() + "Z", "county": "Bartow", "state": "GA", "total": len(records), "records": records}, f, indent=2)
+    json.dump({"fetched_at": datetime.datetime.utcnow().isoformat() + "Z", "total": 0, "records": []}, f)
 
-print("Done")
+print("Saved placeholder")
