@@ -1,2 +1,1 @@
-requests
-beautifulsoup4
+github.com/Bensta1/-bartow-leads/blob/main/scraper/requirements.txt
