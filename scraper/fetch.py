@@ -1,4 +1,4 @@
-import json, datetime, os, time, subprocess, sys
+import json, datetime, os, time, subprocess, sys, re
 
 
 
@@ -44,17 +44,63 @@ print("Running: " + str(start_date) + " to " + str(end_date))
 
 
 
-options = Options()
+def extract_name(text):
 
-options.add_argument("--headless=new")
+    t = text.replace("\n", " ").replace("\r", " ")
 
-options.add_argument("--no-sandbox")
+    # Foreclosure: "executed by JOHN DOE and JANE DOE"
 
-options.add_argument("--disable-dev-shm-usage")
+    m = re.search(r'executed by ([A-Z][A-Z\s,\.]+?)(?:\s+to\s+|\s+hereinafter|\s+as\s+Grantor|,\s+as\s+)', t)
 
-options.add_argument("--disable-gpu")
+    if m:
 
-options.add_argument("--window-size=1920,1080")
+        return m.group(1).strip().rstrip(",").strip()
+
+    # Estate notices
+
+    m = re.search(r'[Ee]state of ([A-Za-z\s,\.]+?)(?:,\s*deceased|,\s*late)', t)
+
+    if m:
+
+        return "Estate of " + m.group(1).strip()
+
+    # "by NAME to" pattern
+
+    m = re.search(r'\bby ([A-Z][A-Z\s,\.]+?) to\b', t)
+
+    if m:
+
+        return m.group(1).strip().rstrip(",").strip()
+
+    return ""
+
+
+
+def extract_address(text):
+
+    t = text.replace("\n", " ")
+
+    m = re.search(r'(\d+\s[\w\s]+(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Way|Blvd|Boulevard|Court|Ct|Highway|Hwy)[\w\s,\.]*(?:Georgia|GA)[\s,]*\d{5}?)', t, re.IGNORECASE)
+
+    if m:
+
+        return m.group(1).strip()
+
+    return ""
+
+
+
+def extract_date(text):
+
+    t = text.replace("\n", " ")
+
+    m = re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}', t)
+
+    if m:
+
+        return m.group(0)
+
+    return ""
 
 
 
@@ -75,6 +121,20 @@ def check_bartow(driver):
     except Exception as e:
 
         print("Bartow error: " + str(e))
+
+
+
+options = Options()
+
+options.add_argument("--headless=new")
+
+options.add_argument("--no-sandbox")
+
+options.add_argument("--disable-dev-shm-usage")
+
+options.add_argument("--disable-gpu")
+
+options.add_argument("--window-size=1920,1080")
 
 
 
@@ -128,8 +188,6 @@ try:
 
 
 
-        # Re-find bartow after postback refreshes DOM
-
         check_bartow(driver)
 
 
@@ -164,39 +222,65 @@ try:
 
         for tbl in soup.find_all("table"):
 
-            rows = tbl.find_all("tr")
-
-            for row in rows[1:]:
+            for row in tbl.find_all("tr")[1:]:
 
                 cells = row.find_all("td")
 
-                if len(cells) >= 2:
+                if len(cells) >= 1:
 
-                    txt = cells[0].get_text().strip()
+                    full_text = cells[0].get_text()
 
-                    if txt and len(txt) > 2 and txt.lower() not in ["name","notice","title","publication"]:
+                    if len(full_text) < 50:
 
-                        found += 1
+                        continue
 
-                        rec = {
 
-                            "name": txt,
 
-                            "address": cells[1].get_text().strip() if len(cells) > 1 else "",
+                    name    = extract_name(full_text)
 
-                            "date": cells[2].get_text().strip() if len(cells) > 2 else "",
+                    address = extract_address(full_text)
 
-                            "doc_type": cat_name,
+                    date    = extract_date(full_text)
 
-                            "county": "Bartow",
 
-                            "state": "GA"
 
-                        }
+                    if not name and not address:
 
-                        records.append(rec)
+                        continue
 
-                        print("  RECORD: " + str(rec))
+
+
+                    found += 1
+
+                    rec = {
+
+                        "name":     name,
+
+                        "address":  address,
+
+                        "date":     date,
+
+                        "doc_type": cat_name,
+
+                        "county":   "Bartow",
+
+                        "state":    "GA",
+
+                        "raw":      full_text[:300].replace("\n"," ").strip()
+
+                    }
+
+                    records.append(rec)
+
+                    print("  NAME: " + name)
+
+                    print("  ADDR: " + address)
+
+                    print("  DATE: " + date)
+
+                    print("  ---")
+
+
 
         print("Found: " + str(found))
 
