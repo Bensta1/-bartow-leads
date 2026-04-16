@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-04-16T00:51:50.571292Z",
+  "fetched_at": "2026-04-16T01:06:47.766881Z",
   "source": "Bartow County GA Clerk / GSCCCA",
   "county": "Bartow",
   "state": "GA",
   "date_range": {
-    "start": "2026-04-09",
+    "start": "2026-03-17",
     "end": "2026-04-16"
   },
-  "lookback_days": 7,
+  "lookback_days": 30,
   "total": 0,
   "with_address": 0,
   "records": []
