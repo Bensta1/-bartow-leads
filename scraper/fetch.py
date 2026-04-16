@@ -26,111 +26,237 @@ def main():
 
     records = []
 
+
+
     with sync_playwright() as p:
 
         browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-setuid-sandbox"])
 
         page = browser.new_page()
 
-        page.goto("https://georgiapublicnotice.com", wait_until="networkidle", timeout=45000)
 
-        page.wait_for_timeout(3000)
 
-        print("Title: " + page.title())
+        search_terms = ["foreclosure", "lis pendens", "lien"]
 
 
 
-        # Find and print ALL county checkboxes and their labels
+        for term in search_terms:
 
-        print("--- COUNTY CHECKBOXES ---")
+            print("--- Searching: " + term + " ---")
 
-        boxes = page.query_selector_all("input[type='checkbox']")
+            page.goto("https://georgiapublicnotice.com", wait_until="networkidle", timeout=45000)
 
-        for box in boxes:
-
-            name = box.get_attribute("name") or box.get_attribute("id") or ""
-
-            val = box.get_attribute("value") or ""
-
-            if "County" in name or "county" in name:
-
-                # Try to find associated label
-
-                bid = box.get_attribute("id") or ""
-
-                label = ""
-
-                if bid:
-
-                    lbl = page.query_selector("label[for='" + bid + "']")
-
-                    if lbl:
-
-                        label = lbl.inner_text().strip()
-
-                print("COUNTY: name=" + name + " value=" + val + " label=" + label)
+            page.wait_for_timeout(3000)
 
 
 
-        # Print ALL dropdown options for Popular Searches
+            # Check Bartow county checkbox (index 7)
 
-        print("--- SEARCH CATEGORIES ---")
+            try:
 
-        for s in page.query_selector_all("select"):
+                bartow = page.query_selector("input[id*='lstCounty7']")
 
-            name = s.get_attribute("name") or s.get_attribute("id") or "unknown"
+                if not bartow:
 
-            opts = [o.inner_text().strip() for o in s.query_selector_all("option")]
+                    bartow = page.query_selector("input[name*='lstCounty7']")
 
-            print("SELECT " + name + ": " + str(opts))
+                if bartow:
 
+                    bartow.check()
 
+                    print("Bartow county checked")
 
-        # Print radio button options
+                else:
 
-        print("--- RADIO BUTTONS ---")
+                    print("WARNING: Bartow checkbox not found")
 
-        for r in page.query_selector_all("input[type='radio']"):
+            except Exception as e:
 
-            name = r.get_attribute("name") or ""
-
-            val = r.get_attribute("value") or ""
-
-            rid = r.get_attribute("id") or ""
-
-            label = ""
-
-            if rid:
-
-                lbl = page.query_selector("label[for='" + rid + "']")
-
-                if lbl:
-
-                    label = lbl.inner_text().strip()
-
-            print("RADIO name=" + name + " value=" + val + " label=" + label)
+                print("Checkbox error: " + str(e))
 
 
 
-        # Print date inputs specifically
+            # Type search term
 
-        print("--- DATE INPUTS ---")
+            try:
 
-        for i in page.query_selector_all("input"):
+                txt = page.query_selector("input[name*='txtSearch']")
 
-            name = i.get_attribute("name") or i.get_attribute("id") or ""
+                if not txt:
 
-            itype = i.get_attribute("type") or "text"
+                    txt = page.query_selector("input[id*='txtSearch']")
 
-            if any(x in name.lower() for x in ["date","from","to","start","end"]):
+                if txt:
 
-                print("DATE INPUT: " + name + " type=" + itype)
+                    txt.fill(term)
+
+                    print("Search term entered: " + term)
+
+            except Exception as e:
+
+                print("Search input error: " + str(e))
+
+
+
+            # Set date range if date fields exist
+
+            try:
+
+                for inp in page.query_selector_all("input[type='text']"):
+
+                    name = inp.get_attribute("name") or inp.get_attribute("id") or ""
+
+                    if "from" in name.lower() or "start" in name.lower() or "begin" in name.lower():
+
+                        inp.fill(start_date.strftime("%m/%d/%Y"))
+
+                        print("From date set: " + str(start_date))
+
+                    elif "to" in name.lower() or "end" in name.lower():
+
+                        inp.fill(end_date.strftime("%m/%d/%Y"))
+
+                        print("To date set: " + str(end_date))
+
+            except Exception as e:
+
+                print("Date error: " + str(e))
+
+
+
+            # Click search button
+
+            try:
+
+                btn = page.query_selector("input[name*='btnTool']")
+
+                if not btn:
+
+                    btn = page.query_selector("input[id*='btnTool']")
+
+                if not btn:
+
+                    btn = page.query_selector("input[type='submit']")
+
+                if btn:
+
+                    btn.click()
+
+                    page.wait_for_timeout(5000)
+
+                    print("Search submitted")
+
+                else:
+
+                    print("No button found")
+
+                    continue
+
+            except Exception as e:
+
+                print("Button error: " + str(e))
+
+                continue
+
+
+
+            # Print results page info
+
+            print("Results title: " + page.title())
+
+            body_text = page.inner_text("body")
+
+            print("Results snippet: " + body_text[:800])
+
+
+
+            # Parse results table
+
+            found = 0
+
+            for tbl in page.query_selector_all("table"):
+
+                rows = tbl.query_selector_all("tr")
+
+                if len(rows) < 2:
+
+                    continue
+
+                for row in rows[1:]:
+
+                    cells = row.query_selector_all("td")
+
+                    if len(cells) >= 2:
+
+                        name_text = cells[0].inner_text().strip()
+
+                        if name_text and len(name_text) > 2:
+
+                            found += 1
+
+                            rec = {
+
+                                "name": name_text,
+
+                                "address": cells[1].inner_text().strip() if len(cells) > 1 else "",
+
+                                "case_number": cells[2].inner_text().strip() if len(cells) > 2 else "",
+
+                                "date": cells[3].inner_text().strip() if len(cells) > 3 else "",
+
+                                "doc_type": term,
+
+                                "county": "Bartow",
+
+                                "state": "GA"
+
+                            }
+
+                            records.append(rec)
+
+
+
+            # Also try divs/articles if no table
+
+            if found == 0:
+
+                for item in page.query_selector_all(".notice, .result, .listing, article, .notice-item"):
+
+                    text = item.inner_text().strip()
+
+                    if text and len(text) > 10:
+
+                        found += 1
+
+                        records.append({
+
+                            "name": text[:100],
+
+                            "address": "",
+
+                            "case_number": "",
+
+                            "date": "",
+
+                            "doc_type": term,
+
+                            "county": "Bartow",
+
+                            "state": "GA"
+
+                        })
+
+
+
+            print("Found " + str(found) + " records for: " + term)
 
 
 
         browser.close()
 
 
+
+    print("TOTAL RECORDS: " + str(len(records)))
 
     os.makedirs("dashboard", exist_ok=True)
 
@@ -150,7 +276,7 @@ def main():
 
         "total": len(records),
 
-        "with_address": 0,
+        "with_address": sum(1 for r in records if r.get("address")),
 
         "records": records
 
@@ -160,7 +286,7 @@ def main():
 
         json.dump(data, f, indent=2)
 
-    print("Saved " + str(len(records)) + " records")
+    print("Saved to " + OUTPUT_FILE)
 
 
 
