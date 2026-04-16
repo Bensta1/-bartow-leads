@@ -58,6 +58,26 @@ options.add_argument("--window-size=1920,1080")
 
 
 
+def check_bartow(driver):
+
+    try:
+
+        el = driver.find_element(By.NAME, "ctl00$ContentPlaceHolder1$as1$lstCounty$7")
+
+        if not el.is_selected():
+
+            driver.execute_script("arguments[0].click();", el)
+
+            time.sleep(0.5)
+
+        print("Bartow checked: " + str(el.is_selected()))
+
+    except Exception as e:
+
+        print("Bartow error: " + str(e))
+
+
+
 print("Starting Chrome...")
 
 driver = webdriver.Chrome(options=options)
@@ -84,21 +104,7 @@ try:
 
 
 
-        try:
-
-            bartow = driver.find_element(By.NAME, "ctl00$ContentPlaceHolder1$as1$lstCounty$7")
-
-            if not bartow.is_selected():
-
-                driver.execute_script("arguments[0].click();", bartow)
-
-                time.sleep(0.5)
-
-            print("Bartow checked: " + str(bartow.is_selected()))
-
-        except Exception as e:
-
-            print("County error: " + str(e))
+        check_bartow(driver)
 
 
 
@@ -110,7 +116,7 @@ try:
 
             Select(ddl).select_by_visible_text(cat_name)
 
-            print("Category selected: " + cat_name)
+            print("Category selected")
 
             time.sleep(3)
 
@@ -122,27 +128,17 @@ try:
 
 
 
-        try:
+        # Re-find bartow after postback refreshes DOM
 
-            bartow = driver.find_element(By.NAME, "ctl00$ContentPlaceHolder1$as1$lstCounty$7")
-
-            if not bartow.is_selected():
-
-                driver.execute_script("arguments[0].click();", bartow)
-
-                time.sleep(0.5)
-
-            print("Bartow re-checked: " + str(bartow.is_selected()))
-
-        except Exception as e:
-
-            print("Re-check error: " + str(e))
+        check_bartow(driver)
 
 
 
         try:
 
-            btn = driver.find_element(By.NAME, "ctl00$ContentPlaceHolder1$as1$btnGo")
+            btn = wait.until(EC.presence_of_element_located(
+
+                (By.NAME, "ctl00$ContentPlaceHolder1$as1$btnGo")))
 
             driver.execute_script("arguments[0].click();", btn)
 
@@ -160,9 +156,9 @@ try:
 
         print("URL: " + driver.current_url)
 
-
-
         soup = BeautifulSoup(driver.page_source, "html.parser")
+
+
 
         found = 0
 
@@ -182,7 +178,7 @@ try:
 
                         found += 1
 
-                        records.append({
+                        rec = {
 
                             "name": txt,
 
@@ -196,7 +192,11 @@ try:
 
                             "state": "GA"
 
-                        })
+                        }
+
+                        records.append(rec)
+
+                        print("  RECORD: " + str(rec))
 
         print("Found: " + str(found))
 
