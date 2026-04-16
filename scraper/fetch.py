@@ -46,9 +46,7 @@ print("Running: " + str(start_date) + " to " + str(end_date))
 
 def extract_name(text):
 
-    t = text.replace("\n", " ").replace("\r", " ")
-
-    # Foreclosure: "executed by JOHN DOE and JANE DOE"
+    t = text.replace("\n", " ")
 
     m = re.search(r'executed by ([A-Z][A-Z\s,\.]+?)(?:\s+to\s+|\s+hereinafter|\s+as\s+Grantor|,\s+as\s+)', t)
 
@@ -56,15 +54,11 @@ def extract_name(text):
 
         return m.group(1).strip().rstrip(",").strip()
 
-    # Estate notices
-
     m = re.search(r'[Ee]state of ([A-Za-z\s,\.]+?)(?:,\s*deceased|,\s*late)', t)
 
     if m:
 
         return "Estate of " + m.group(1).strip()
-
-    # "by NAME to" pattern
 
     m = re.search(r'\bby ([A-Z][A-Z\s,\.]+?) to\b', t)
 
@@ -80,11 +74,37 @@ def extract_address(text):
 
     t = text.replace("\n", " ")
 
-    m = re.search(r'(\d+\s[\w\s]+(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Way|Blvd|Boulevard|Court|Ct|Highway|Hwy)[\w\s,\.]*(?:Georgia|GA)[\s,]*\d{5}?)', t, re.IGNORECASE)
+    # Try "known as ADDRESS" or "located at ADDRESS"
+
+    m = re.search(r'(?:known as|located at|property known as|property at)[:\s]+([0-9][^\.,;]{5,60}(?:GA|Georgia)[^,]{0,10})', t, re.IGNORECASE)
 
     if m:
 
         return m.group(1).strip()
+
+    # Try standard street address
+
+    m = re.search(r'(\d+\s+[A-Za-z][^\n,]{3,50}(?:Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Lane|Ln|Way|Blvd|Court|Ct|Hwy)[^\n,]{0,40})', t, re.IGNORECASE)
+
+    if m:
+
+        return m.group(1).strip()
+
+    # Try city + GA + zip
+
+    m = re.search(r'([A-Za-z\s]+,\s*(?:Georgia|GA)\s*\d{5})', t)
+
+    if m:
+
+        return m.group(1).strip()
+
+    # Fallback: just grab city from nCity
+
+    m = re.search(r'nCity:\s*([A-Za-z\s]+)', t)
+
+    if m:
+
+        return m.group(1).strip() + ", GA"
 
     return ""
 
@@ -145,6 +165,8 @@ driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 15)
 
 records = []
+
+seen = set()
 
 
 
@@ -226,94 +248,63 @@ try:
 
                 cells = row.find_all("td")
 
-                if len(cells) >= 1:
+                if len(cells) < 1:
 
-                    full_text = cells[0].get_text()
+                    continue
 
-                    if len(full_text) < 50:
+                full_text = cells[0].get_text()
 
-                        continue
+                if len(full_text) < 50:
 
-
-
-                    name    = extract_name(full_text)
-
-                    address = extract_address(full_text)
-
-                    date    = extract_date(full_text)
+                    continue
 
 
 
-                    if not name and not address:
+                name    = extract_name(full_text)
 
-                        continue
+                address = extract_address(full_text)
 
-
-
-                    found += 1
-
-                    rec = {
-
-                        "name":     name,
-
-                        "address":  address,
-
-                        "date":     date,
-
-                        "doc_type": cat_name,
-
-                        "county":   "Bartow",
-
-                        "state":    "GA",
-
-                        "raw":      full_text[:300].replace("\n"," ").strip()
-
-                    }
-
-                    records.append(rec)
-
-                    print("  NAME: " + name)
-
-                    print("  ADDR: " + address)
-
-                    print("  DATE: " + date)
-
-                    print("  ---")
+                date    = extract_date(full_text)
 
 
 
-        print("Found: " + str(found))
+                if not name:
+
+                    continue
 
 
 
-finally:
+                # Deduplicate by name + category
 
-    driver.quit()
+                key = name + "|" + cat_name
 
-    print("Browser closed")
+                if key in seen:
+
+                    continue
+
+                seen.add(key)
 
 
 
-print("\nTOTAL: " + str(len(records)))
+                found += 1
 
-os.makedirs("dashboard", exist_ok=True)
+                rec = {
 
-with open(OUTPUT_FILE, "w") as f:
+                    "name":     name,
 
-    json.dump({
+                    "address":  address,
 
-        "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
+                    "date":     date,
 
-        "date_range": {"start": str(start_date), "end": str(end_date)},
+                    "doc_type": cat_name,
 
-        "county": "Bartow",
+                    "county":   "Bartow",
 
-        "state": "GA",
+                    "state":    "GA",
 
-        "total": len(records),
-
-        "records": records
-
-    }, f, indent=2)
-
-print("Saved to " + OUTPUT_FILE)
+                    "raw":      full_text[:200].replace("\n", " ").strip
+                }
+                records.append(rec)
+                print("  NAME: " + name)
+                print("  ADDR: " + address)
+                print("  DATE: " + date
