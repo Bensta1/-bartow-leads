@@ -2,7 +2,7 @@
 
 from playwright.sync_api import sync_playwright
 
-import json, datetime, os
+import json, datetime, os, base64
 
 
 
@@ -48,8 +48,6 @@ def scrape_gsccca(start_date, end_date):
 
     records = []
 
-    URL = "https://search.gsccca.org/RealEstate/"
-
 
 
     with sync_playwright() as p:
@@ -72,133 +70,91 @@ def scrape_gsccca(start_date, end_date):
 
 
 
-        print(f"Loading: {URL}")
+        # ── Try direct search URL with GET parameters ──────────────
 
-        try:
+        # Bartow County code = 8 in GSCCCA
 
-            page.goto(URL, wait_until="networkidle", timeout=30000)
+        for doc_code, doc_label in [
 
-        except Exception as e:
+            ("NFS",  "Notice of Foreclosure Sale"),
 
-            print(f"⚠️ networkidle timeout ({e}), continuing anyway...")
+            ("LIS",  "Lis Pendens"),
 
+            ("FIFA", "Fi Fa / Lien"),
 
-
-        print(f"Title: {page.title()}")
-
-
-
-        # Debug: list all form elements
-
-        all_els = page.query_selector_all("input, select, textarea")
-
-        print(f"Form elements found: {len(all_els)}")
-
-        for el in all_els:
-
-            tag  = el.evaluate("e => e.tagName")
-
-            name = el.get_attribute("name") or el.get_attribute("id") or "(none)"
-
-            print(f"  {tag}: {name}")
-
-
-
-        for doc_code, doc_label in [("NFS","Notice of Foreclosure Sale"),
-
-                                     ("LIS","Lis Pendens"),
-
-                                     ("FIFA","Fi Fa / Lien")]:
+        ]:
 
             try:
 
-                print(f"\n── Searching: {doc_label} ──")
+                url = (
+
+                    f"https://search.gsccca.org/RealEstate/instrumentindex.aspx"
+
+                    f"?county=8"
+
+                    f"&doctype={doc_code}"
+
+                    f"&fromdate={start_date.strftime('%m/%d/%Y')}"
+
+                    f"&todate={end_date.strftime('%m/%d/%Y')}"
+
+                    f"&appid=2"
+
+                )
+
+                print(f"\n── {doc_label} ──")
+
+                print(f"URL: {url}")
 
 
 
-                # Select Bartow County
+                page.goto(url, wait_until="networkidle", timeout=45000)
 
-                for sel in page.query_selector_all("select"):
-
-                    opts = sel.inner_text().lower()
-
-                    if "bartow" in opts:
-
-                        sel.select_option(label="Bartow")
-
-                        print("  ✅ County → Bartow")
-
-                        break
+                page.wait_for_timeout(3000)  # extra wait for JS
 
 
 
-                # Select doc type
+                title = page.title()
 
-                for sel in page.query_selector_all("select"):
-
-                    opts = sel.inner_text().lower()
-
-                    if "foreclosure" in opts or "lis pendens" in opts or "fi fa" in opts:
-
-                        try:
-
-                            sel.select_option(label=doc_label)
-
-                        except:
-
-                            sel.select_option(value=doc_code)
-
-                        print(f"  ✅ Doc type → {doc_label}")
-
-                        break
+                print(f"Title: {title}")
 
 
 
-                # Fill date range
+                # Check for selects NOW (after JS loads)
 
-                for inp in page.query_selector_all("input"):
+                selects = page.query_selector_all("select")
 
-                    name = (inp.get_attribute("name") or inp.get_attribute("id") or "").lower()
+                print(f"Selects found: {len(selects)}")
 
-                    if any(x in name for x in ["fromdate","from_date","startdate","datefrom"]):
+                for sel in selects:
 
-                        inp.fill(start_date.strftime("%m/%d/%Y"))
+                    name = sel.get_attribute("name") or sel.get_attribute("id")
 
-                        print(f"  ✅ From: {start_date}")
+                    opts = [o.inner_text().strip() for o in sel.query_selector_all("option")][:8]
 
-                    elif any(x in name for x in ["todate","to_date","enddate","dateto"]):
-
-                        inp.fill(end_date.strftime("%m/%d/%Y"))
-
-                        print(f"  ✅ To:   {end_date}")
+                    print(f"  SELECT {name}: {opts}")
 
 
 
-                # Click Search
+                # Save screenshot as base64 for debugging
 
-                btn = (page.query_selector("input[value='Search']") or
+                screenshot = page.screenshot()
 
-                       page.query_selector("button:has-text('Search')") or
+                b64 = base64.b64encode(screenshot).decode()
 
-                       page.query_selector("input[type='submit']"))
+                print(f"SCREENSHOT_B64_START_{doc_code}")
 
-                if not btn:
+                print(b64[:200])  # First 200 chars to confirm it works
 
-                    print("  ❌ No search button found!")
+                print(f"SCREENSHOT_B64_END_{doc_code}")
 
-                    continue
 
-                btn.click()
 
-                try:
+                # Print HTML snippet of main content
 
-                    page.wait_for_load_state("networkidle", timeout=30000)
+                body = page.inner_text("body")
 
-                except:
-
-                    page.wait_for_timeout(3000)
-
-                print("  ✅ Search submitted")
+                print(f"Body text (first 500): {body[:500]}")
 
 
 
@@ -208,21 +164,27 @@ def scrape_gsccca(start_date, end_date):
 
                 for tbl in page.query_selector_all("table"):
 
-                    for row in tbl.query_selector_all("tr")[1:]:
+                    rows = tbl.query_selector_all("tr")
+
+                    if len(rows) < 2:
+
+                        continue
+
+                    for row in rows[1:]:
 
                         cells = row.query_selector_all("td")
 
                         if len(cells) >= 2:
 
-                            name = cells[0].inner_text().strip()
+                            name_text = cells[0].inner_text().strip()
 
-                            if name and len(name) > 2:
+                            if name_text and len(name_text) > 2:
 
                                 found += 1
 
                                 records.append({
 
-                                    "name":        name,
+                                    "name":        name_text,
 
                                     "address":     cells[1].inner_text().strip() if len(cells)>1 else "",
 
@@ -234,13 +196,7 @@ def scrape_gsccca(start_date, end_date):
 
                                 })
 
-                print(f"  → {found} records found")
-
-
-
-                # Return to search page for next doc type
-
-                page.goto(URL, wait_until="networkidle", timeout=30000)
+                print(f"→ {found} records found")
 
 
 
@@ -248,7 +204,7 @@ def scrape_gsccca(start_date, end_date):
 
                 import traceback
 
-                print(f"  ERROR: {e}")
+                print(f"ERROR: {e}")
 
                 traceback.print_exc()
 
