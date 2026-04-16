@@ -1,54 +1,32 @@
 #!/usr/bin/env python3
 
+import json
+
+import datetime
+
+import os
+
 from playwright.sync_api import sync_playwright
 
-import json, datetime, os
 
 
-
-OUTPUT_FILE   = "dashboard/records.json"
+OUTPUT_FILE = "dashboard/records.json"
 
 LOOKBACK_DAYS = 30
 
 
 
-def save_results(records, start_date, end_date):
+def main():
 
-    data = {
+    end_date = datetime.date.today()
 
-        "fetched_at":    datetime.datetime.utcnow().isoformat() + "Z",
+    start_date = end_date - datetime.timedelta(days=LOOKBACK_DAYS)
 
-        "source":        "Georgia Public Notice / Bartow County",
-
-        "county":        "Bartow", "state": "GA",
-
-        "date_range":    {"start": str(start_date), "end": str(end_date)},
-
-        "lookback_days": LOOKBACK_DAYS,
-
-        "total":         len(records),
-
-        "with_address":  sum(1 for r in records if r.get("address")),
-
-        "records":       records
-
-    }
-
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-
-    with open(OUTPUT_FILE, "w") as f:
-
-        json.dump(data, f, indent=2)
-
-    print(f"✅ Saved {len(records)} records → {OUTPUT_FILE}")
+    print(f"Bartow County GA leads: {start_date} to {end_date}")
 
 
-
-def scrape(start_date, end_date):
 
     records = []
-
-    BASE = "https://georgiapublicnotice.com"
 
 
 
@@ -62,63 +40,105 @@ def scrape(start_date, end_date):
 
         )
 
-        page = browser.new_context(
-
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36"
-
-        ).new_page()
+        page = browser.new_page()
 
 
 
-        print(f"Loading: {BASE}")
+        url = "https://georgiapublicnotice.com"
 
-        page.goto(BASE, wait_until="networkidle", timeout=45000)
+        print(f"Loading: {url}")
 
-        page.wait_for_timeout(2000)
+        page.goto(url, wait_until="networkidle", timeout=45000)
+
+        page.wait_for_timeout(3000)
 
         print(f"Title: {page.title()}")
 
 
 
-        # Debug all selects and inputs
+        # Print all selects
 
-        for sel in page.query_selector_all("select"):
+        selects = page.query_selector_all("select")
 
-            name = sel.get_attribute("name") or sel.get_attribute("id") or "?"
+        print(f"Selects found: {len(selects)}")
 
-            opts = [o.inner_text().strip() for o in sel.query_selector_all("option")]
+        for s in selects:
 
-            print(f"SELECT '{name}': {opts[:10]}")
+            name = s.get_attribute("name") or s.get_attribute("id") or "unknown"
 
+            opts = [o.inner_text().strip() for o in s.query_selector_all("option")]
 
-
-        for inp in page.query_selector_all("input"):
-
-            name = inp.get_attribute("name") or inp.get_attribute("id") or "?"
-
-            typ  = inp.get_attribute("type") or "text"
-
-            print(f"INPUT '{name}' type={typ}")
+            print(f"  SELECT {name}: {opts[:10]}")
 
 
 
-        # ── Set County to Bartow ──────────────────────────────────
+        # Print all inputs
 
-        county_set = False
+        inputs = page.query_selector_all("input")
 
-        for sel in page.query_selector_all("select"):
+        print(f"Inputs found: {len(inputs)}")
 
-            opts_text = sel.inner_text().lower()
+        for i in inputs:
 
-            if "bartow" in opts_text:
+            name = i.get_attribute("name") or i.get_attribute("id") or "unknown"
 
-                sel.select_option(label="Bartow")
+            itype = i.get_attribute("type") or "text"
 
-                print("✅ County set → Bartow")
+            print(f"  INPUT {name} type={itype}")
 
-                county_set = True
 
-                break
+
+        # Print page body
+
+        body = page.inner_text("body")
+
+        print(f"Page text (first 1000):")
+
+        print(body[:1000])
+
+
+
+        browser.close()
+
+
+
+    data = {
+
+        "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
+
+        "source": "Georgia Public Notice",
+
+        "county": "Bartow",
+
+        "state": "GA",
+
+        "date_range": {"start": str(start_date), "end": str(end_date)},
+
+        "lookback_days": LOOKBACK_DAYS,
+
+        "total": len(records),
+
+        "with_address": 0,
+
+        "records": records
+
+    }
+
+
+
+    os.makedirs("dashboard", exist_ok=True)
+
+    with open(OUTPUT_FILE, "w") as f:
+
+        json.dump(data, f, indent=2)
+
+    print(f"Saved {len(records)} records to {OUTPUT_FILE}")
+
+
+
+if __name__ == "__main__":
+
+    main()
 
 
 
