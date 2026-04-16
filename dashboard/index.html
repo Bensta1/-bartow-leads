@@ -1,101 +1,37 @@
-<!DOCTYPE html>
+fetch('records.json')
 
-<html lang="en">
+  .then(r => r.json())
 
-<head>
+  .then(data => {
 
-  <meta charset="UTF-8">
+    const records = data.records || [];
 
-  <title>Bartow County Leads</title>
+    document.getElementById('count').textContent = `Total Leads: ${records.length} | Last updated: ${data.fetched_at || 'Never'}`;
 
-  <style>
+    const body = document.getElementById('leads-body');
 
-    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+    records.forEach(lead => {
 
-    h1 { color: #333; }
+      body.innerHTML += `<tr>
 
-    table { width: 100%; border-collapse: collapse; background: white; }
+        <td>${lead.name || ''}</td>
 
-    th { background: #2c3e50; color: white; padding: 10px; text-align: left; }
+        <td>${lead.address || ''}</td>
 
-    td { padding: 10px; border-bottom: 1px solid #ddd; }
+        <td>${lead.case_number || ''}</td>
 
-    tr:hover { background: #f0f0f0; }
+        <td>${lead.date || ''}</td>
 
-    #count { margin: 10px 0; font-weight: bold; color: #2c3e50; }
+        <td>${lead.doc_type || ''}</td>
 
-  </style>
+      </tr>`;
 
-</head>
+    });
 
-<body>
+  })
 
-  <h1>🏠 Bartow County Leads</h1>
+  .catch(() => {
 
-  <div id="count">Loading...</div>
+    document.getElementById('count').textContent = 'No data yet — run the scraper!';
 
-  <table>
-
-    <thead>
-
-      <tr>
-
-        <th>Name</th>
-
-        <th>Address</th>
-
-        <th>Case #</th>
-
-        <th>Date</th>
-
-      </tr>
-
-    </thead>
-
-    <tbody id="leads-body"></tbody>
-
-  </table>
-
-
-
-  <script>
-
-    fetch('records.json')
-
-      .then(r => r.json())
-
-      .then(data => {
-
-        document.getElementById('count').textContent = `Total Leads: ${data.length}`;
-
-        const body = document.getElementById('leads-body');
-
-        data.forEach(lead => {
-
-          body.innerHTML += `<tr>
-
-            <td>${lead.name || ''}</td>
-
-            <td>${lead.address || ''}</td>
-
-            <td>${lead.case_number || ''}</td>
-
-            <td>${lead.date || ''}</td>
-
-          </tr>`;
-
-        });
-
-      })
-
-      .catch(() => {
-
-        document.getElementById('count').textContent = 'No data yet — run the scraper!';
-
-      });
-
-  </script>
-
-</body>
-
-</html>
+  });
