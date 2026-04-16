@@ -1,4 +1,38 @@
-import json, datetime, os, requests
+import json, datetime, os, time, subprocess, sys
+
+
+
+# Self-install selenium without touching YAML
+
+try:
+
+    from selenium import webdriver
+
+    from selenium.webdriver.chrome.options import Options
+
+    from selenium.webdriver.common.by import By
+
+    from selenium.webdriver.support.ui import WebDriverWait, Select
+
+    from selenium.webdriver.support import expected_conditions as EC
+
+except ImportError:
+
+    print("Installing selenium...")
+
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "selenium", "--quiet"])
+
+    from selenium import webdriver
+
+    from selenium.webdriver.chrome.options import Options
+
+    from selenium.webdriver.common.by import By
+
+    from selenium.webdriver.support.ui import WebDriverWait, Select
+
+    from selenium.webdriver.support import expected_conditions as EC
+
+
 
 from bs4 import BeautifulSoup
 
@@ -6,173 +40,177 @@ from bs4 import BeautifulSoup
 
 OUTPUT_FILE = "dashboard/records.json"
 
-BASE_URL = "https://georgiapublicnotice.com/default.aspx"
+LOOKBACK_DAYS = 30
 
-COUNTY   = "ctl00$ContentPlaceHolder1$as1$lstCounty$7"
+end_date = datetime.date.today()
 
-DDL      = "ctl00$ContentPlaceHolder1$as1$ddlPopularSearches"
+start_date = end_date - datetime.timedelta(days=LOOKBACK_DAYS)
 
-BTN      = "ctl00$ContentPlaceHolder1$as1$btnGo"
-
-TXT      = "ctl00$ContentPlaceHolder1$as1$txtSearch"
+print("Running: " + str(start_date) + " to " + str(end_date))
 
 
 
-def get_state(soup):
+options = Options()
 
-    vs  = soup.find("input", {"name": "__VIEWSTATE"})
+options.add_argument("--headless=new")
 
-    vsg = soup.find("input", {"name": "__VIEWSTATEGENERATOR"})
+options.add_argument("--no-sandbox")
 
-    ev  = soup.find("input", {"name": "__EVENTVALIDATION"})
+options.add_argument("--disable-dev-shm-usage")
 
-    return (vs["value"] if vs else "", vsg["value"] if vsg else "", ev["value"] if ev else "")
+options.add_argument("--disable-gpu")
 
-
-
-session = requests.Session()
-
-session.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0"})
+options.add_argument("--window-size=1920,1080")
 
 
 
-print("Step 0: Initial GET")
+print("Starting Chrome...")
 
-r0 = session.get(BASE_URL, timeout=20)
+driver = webdriver.Chrome(options=options)
 
-print("GET: " + str(r0.status_code))
-
-soup0 = BeautifulSoup(r0.text, "html.parser")
-
-vs, vsg, ev = get_state(soup0)
-
-print("VS length: " + str(len(vs)))
-
-
+wait = WebDriverWait(driver, 15)
 
 records = []
 
 
 
-for cat_val, cat_name in [("16","Foreclosures"), ("24","Sheriffs Sales"), ("12","Debtors and Creditors")]:
+CATEGORIES = [
 
-    print("\n====== " + cat_name + " ======")
+    "Foreclosures",
 
+    "Debtors and Creditors",
 
+    "Sheriff's/Marshal's Sales"
 
-    # STEP 1 — AutoPostBack: select category from dropdown
-
-    print("Step 1: Select category")
-
-    s1 = {
-
-        "__VIEWSTATE":          vs,
-
-        "__VIEWSTATEGENERATOR": vsg,
-
-        "__EVENTVALIDATION":    ev,
-
-        "__EVENTTARGET":        DDL,
-
-        "__EVENTARGUMENT":      "",
-
-        "__LASTFOCUS":          "",
-
-        DDL:                    cat_val,
-
-        COUNTY:                 "on",
-
-        TXT:                    "",
-
-    }
-
-    r1 = session.post(BASE_URL, data=s1, timeout=30)
-
-    print("Step1 status: " + str(r1.status_code))
-
-    soup1 = BeautifulSoup(r1.text, "html.parser")
-
-    vs2, vsg2, ev2 = get_state(soup1)
-
-    print("New VS length: " + str(len(vs2)))
-
-    print("Step1 snippet: " + soup1.get_text()[300:600].replace("\n"," "))
+]
 
 
 
-    # STEP 2 — Click Search button with refreshed ViewState
+try:
 
-    print("Step 2: Click Search")
+    for cat_name in CATEGORIES:
 
-    s2 = {
+        print("\n=== " + cat_name + " ===")
 
-        "__VIEWSTATE":          vs2,
+        driver.get("https://georgiapublicnotice.com")
 
-        "__VIEWSTATEGENERATOR": vsg2,
+        time.sleep(3)
 
-        "__EVENTVALIDATION":    ev2,
-
-        "__EVENTTARGET":        "",
-
-        "__EVENTARGUMENT":      "",
-
-        "__LASTFOCUS":          "",
-
-        DDL:                    cat_val,
-
-        COUNTY:                 "on",
-
-        TXT:                    "",
-
-        BTN:                    "Search",
-
-    }
-
-    r2 = session.post(BASE_URL, data=s2, timeout=30)
-
-    print("Step2 status: " + str(r2.status_code))
-
-    soup2 = BeautifulSoup(r2.text, "html.parser")
-
-    print("Step2 snippet: " + soup2.get_text()[300:800].replace("\n"," "))
+        print("Loaded: " + driver.title)
 
 
 
-    found = 0
+        # Select category from dropdown
 
-    for tbl in soup2.find_all("table"):
+        try:
 
-        rows = tbl.find_all("tr")
+            ddl = wait.until(EC.presence_of_element_located(
 
-        for row in rows[1:]:
+                (By.NAME, "ctl00$ContentPlaceHolder1$as1$ddlPopularSearches")))
 
-            cells = row.find_all("td")
+            Select(ddl).select_by_visible_text(cat_name)
 
-            if len(cells) >= 2:
+            print("Selected category: " + cat_name)
 
-                txt = cells[0].get_text().strip()
+            time.sleep(3)
 
-                if txt and len(txt) > 2:
+        except Exception as e:
 
-                    found += 1
+            print("Dropdown error: " + str(e))
 
-                    records.append({
+            continue
 
-                        "name":     txt,
 
-                        "address":  cells[1].get_text().strip() if len(cells) > 1 else "",
 
-                        "date":     cells[2].get_text().strip() if len(cells) > 2 else "",
+        # Check Bartow county checkbox
 
-                        "doc_type": cat_name,
+        try:
 
-                        "county":   "Bartow",
+            bartow = driver.find_element(By.NAME, "ctl00$ContentPlaceHolder1$as1$lstCounty$7")
 
-                        "state":    "GA"
+            if not bartow.is_selected():
 
-                    })
+                bartow.click()
 
-    print("Found: " + str(found))
+            print("Bartow checked: " + str(bartow.is_selected()))
+
+            time.sleep(0.5)
+
+        except Exception as e:
+
+            print("County error: " + str(e))
+
+
+
+        # Click Search
+
+        try:
+
+            btn = driver.find_element(By.NAME, "ctl00$ContentPlaceHolder1$as1$btnGo")
+
+            btn.click()
+
+            print("Search clicked")
+
+            time.sleep(4)
+
+        except Exception as e:
+
+            print("Button error: " + str(e))
+
+            continue
+
+
+
+        print("URL: " + driver.current_url)
+
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+
+        print("Preview: " + soup.get_text()[200:500].replace("\n"," "))
+
+
+
+        found = 0
+
+        for tbl in soup.find_all("table"):
+
+            for row in tbl.find_all("tr")[1:]:
+
+                cells = row.find_all("td")
+
+                if len(cells) >= 2:
+
+                    txt = cells[0].get_text().strip()
+
+                    if txt and len(txt) > 2 and txt.lower() not in ["name","notice","title"]:
+
+                        found += 1
+
+                        records.append({
+
+                            "name": txt,
+
+                            "address": cells[1].get_text().strip() if len(cells) > 1 else "",
+
+                            "date": cells[2].get_text().strip() if len(cells) > 2 else "",
+
+                            "doc_type": cat_name,
+
+                            "county": "Bartow",
+
+                            "state": "GA"
+
+                        })
+
+        print("Found: " + str(found))
+
+
+
+finally:
+
+    driver.quit()
+
+    print("Browser closed")
 
 
 
@@ -182,6 +220,18 @@ os.makedirs("dashboard", exist_ok=True)
 
 with open(OUTPUT_FILE, "w") as f:
 
-    json.dump({"fetched_at": datetime.datetime.utcnow().isoformat()+"Z", "county": "Bartow", "state": "GA", "total": len(records), "records": records}, f, indent=2)
+    json.dump({
+
+        "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
+
+        "date_range": {"start": str(start_date), "end": str(end_date)},
+
+        "county": "Bartow", "state": "GA",
+
+        "total": len(records),
+
+        "records": records
+
+    }, f, indent=2)
 
 print("Saved to " + OUTPUT_FILE)
