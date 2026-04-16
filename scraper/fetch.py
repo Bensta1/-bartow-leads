@@ -20,9 +20,19 @@ session = requests.Session()
 
 session.headers.update({"User-Agent": "Mozilla/5.0 Chrome/120.0.0.0"})
 
-resp = session.get("https://georgiapublicnotice.com", timeout=20)
+BASE = "https://georgiapublicnotice.com"
+
+resp = session.get(BASE, timeout=20)
+
+print("GET: " + str(resp.status_code))
 
 soup = BeautifulSoup(resp.text, "html.parser")
+
+
+
+for form in soup.find_all("form"):
+
+    print("FORM action=" + str(form.get("action","")) + " method=" + str(form.get("method","")))
 
 
 
@@ -40,61 +50,21 @@ event_val     = ev["value"]  if ev  else ""
 
 
 
-# Find county checkboxes and their labels
+COUNTY = "ctl00$ContentPlaceHolder1$as1$lstCounty$7"
 
-print("=== COUNTY LIST ===")
-
-bartow_field = None
-
-for inp in soup.find_all("input", {"type": "checkbox"}):
-
-    n = inp.get("name", "")
-
-    if "lstCounty" in n:
-
-        label = inp.find_next("label")
-
-        label_text = label.get_text().strip() if label else inp.find_next(string=True).strip() if inp.find_next(string=True) else "?"
-
-        print(n + " = " + label_text)
-
-        if "Bartow" in label_text or "bartow" in label_text.lower():
-
-            bartow_field = n
-
-            print("^^^ BARTOW FOUND: " + n)
-
-
-
-print("=== ALL SELECTS ===")
-
-for sel in soup.find_all("select"):
-
-    n = sel.get("name", "")
-
-    opts = [o.get("value","") + "=" + o.get_text().strip() for o in sel.find_all("option")]
-
-    print("SELECT name=" + n + " options=" + str(opts[:20]))
-
-
-
-# Now try actual search with correct field names
-
-BTN = "ctl00$ContentPlaceHolder1$as1$btnGo"
-
-TXT = "ctl00$ContentPlaceHolder1$as1$txtSearch"
-
-COUNTY = bartow_field if bartow_field else "ctl00$ContentPlaceHolder1$as1$lstCounty$7"
-
-print("Using county field: " + COUNTY)
+DDL    = "ctl00$ContentPlaceHolder1$as1$ddlPopularSearches"
 
 
 
 records = []
 
-for term in ["foreclosure", "lien"]:
 
-    print("Searching: " + term)
+
+# Numeric values from the SELECT options we found in logs
+
+for cat_val, cat_name in [("16","Foreclosures"), ("24","Sheriff Sales"), ("12","Debtors and Creditors")]:
+
+    print("--- " + cat_name + " (val=" + cat_val + ") ---")
 
     post_data = {
 
@@ -104,29 +74,25 @@ for term in ["foreclosure", "lien"]:
 
         "__EVENTVALIDATION":    event_val,
 
-        "__EVENTTARGET":        "",
+        "__EVENTTARGET":        DDL,
 
         "__EVENTARGUMENT":      "",
 
         "__LASTFOCUS":          "",
 
-        TXT:                    term,
-
-        "ctl00$ContentPlaceHolder1$as1$rdoType": "OR",
+        DDL:                    cat_val,
 
         COUNTY:                 "on",
 
-        BTN:                    "Search"
-
     }
 
-    r = session.post("https://georgiapublicnotice.com", data=post_data, timeout=30)
+    r = session.post(BASE, data=post_data, timeout=30)
 
     print("POST: " + str(r.status_code))
 
     rsoup = BeautifulSoup(r.text, "html.parser")
 
-    print("Page snippet: " + rsoup.get_text()[300:700].replace("\n"," "))
+    print("Snippet: " + rsoup.get_text()[200:600].replace("\n"," "))
 
     found = 0
 
@@ -146,21 +112,7 @@ for term in ["foreclosure", "lien"]:
 
                     found += 1
 
-                    records.append({
-
-                        "name":     name_text,
-
-                        "address":  cells[1].get_text().strip() if len(cells) > 1 else "",
-
-                        "date":     cells[2].get_text().strip() if len(cells) > 2 else "",
-
-                        "doc_type": term,
-
-                        "county":   "Bartow",
-
-                        "state":    "GA"
-
-                    })
+                    records.append({"name": name_text, "address": cells[1].get_text().strip() if len(cells) > 1 else "", "date": cells[2].get_text().strip() if len(cells) > 2 else "", "doc_type": cat_name, "county": "Bartow", "state": "GA"})
 
     print("Found: " + str(found))
 
