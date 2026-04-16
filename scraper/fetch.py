@@ -1,44 +1,26 @@
 #!/usr/bin/env python3
 
-"""
-
-Bartow County GA Leads Scraper
-
-Fetches foreclosure notices from GSCCCA
-
-"""
-
-
-
 import requests
 
 from bs4 import BeautifulSoup
 
-import json
-
-import datetime
-
-import os
-
-import sys
-
-import re
+import json, datetime, os, traceback
 
 
 
 OUTPUT_FILE = "dashboard/records.json"
 
-LOOKBACK_DAYS = 7
+LOOKBACK_DAYS = 30  # extended to 30 days to catch more records
 
 
 
 HEADERS = {
 
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36",
 
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 
-    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Language": "en-US,en;q=0.9",
 
 }
 
@@ -74,7 +56,7 @@ def save_results(records, start_date, end_date):
 
         json.dump(data, f, indent=2)
 
-    print(f"Saved {len(records)} records to {OUTPUT_FILE}")
+    print(f"✅ Saved {len(records)} records to {OUTPUT_FILE}")
 
 
 
@@ -86,107 +68,197 @@ def fetch_gsccca(start_date, end_date):
 
     records = []
 
-
-
-    search_url = "https://search.gsccca.org/RealEstate/"
-
-    doc_types = [
-
-        ("NFS", "Notice of Foreclosure Sale"),
-
-        ("LIS", "Lis Pendens"),
-
-    ]
+    SEARCH_URL = "https://search.gsccca.org/RealEstate/index.aspx"
 
 
 
-    # Find Bartow County ID from dropdown
+    # ── Step 1: Load the form page ──────────────────────────────
 
-    bartow_id = "8"
+    print("Loading GSCCCA search page...")
 
     try:
 
-        r = session.get(search_url, timeout=15)
+        r = session.get(SEARCH_URL, timeout=20)
 
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        county_select = soup.find("select", {"name": re.compile(r"county", re.I)})
-
-        if county_select:
-
-            for option in county_select.find_all("option"):
-
-                if "bartow" in option.text.lower():
-
-                    bartow_id = option.get("value")
-
-                    print(f"Found Bartow County ID: {bartow_id}")
-
-                    break
+        print(f"  Page status: {r.status_code}  |  Length: {len(r.text)} chars")
 
     except Exception as e:
 
-        print(f"Warning: using fallback county ID=8 ({e})")
+        print(f"  FAILED to load page: {e}")
+
+        return records
 
 
 
-    for doc_code, doc_name in doc_types:
+    soup = BeautifulSoup(r.text, "html.parser")
+
+
+
+    # ── Debug: print ALL form input/select names ─────────────────
+
+    all_inputs  = [i.get("name") for i in soup.find_all("input")  if i.get("name")]
+
+    all_selects = [s.get("name") for s in soup.find_all("select") if s.get("name")]
+
+    print(f"  INPUT  fields: {all_inputs}")
+
+    print(f"  SELECT fields: {all_selects}")
+
+
+
+    # ── Find Bartow County value ──────────────────────────────────
+
+    bartow_value      = "8"   # fallback
+
+    county_field_name = None
+
+    for sel in soup.find_all("select"):
+
+        for opt in sel.find_all("option"):
+
+            if "bartow" in opt.get_text(strip=True).lower():
+
+                bartow_value      = opt.get("value", "8")
+
+                county_field_name = sel.get("name")
+
+                print(f"  Bartow → field={county_field_name}, value={bartow_value}")
+
+                break
+
+
+
+    # ── Hidden ASP.NET fields ─────────────────────────────────────
+
+    vs  = soup.find("input", {"name": "__VIEWSTATE"})
+
+    ev  = soup.find("input", {"name": "__EVENTVALIDATION"})
+
+    vsg = soup.find("input", {"name": "__VIEWSTATEGENERATOR"})
+
+
+
+    # ── Step 2: Search each doc type ─────────────────────────────
+
+    for doc_code, doc_label in [("NFS","Notice of Foreclosure Sale"),
+
+                                  ("LIS","Lis Pendens"),
+
+                                  ("FIFA","Fi Fa / Lien")]:
 
         try:
 
-            print(f"Searching: {doc_name}...")
+            print(f"\nSearching: {doc_label} ({doc_code})...")
 
-            params = {
 
-                "county_id": bartow_id,
 
-                "doc_type": doc_code,
+            post_data = {
 
-                "start_date": start_date.strftime("%m/%d/%Y"),
+                "__VIEWSTATE":          vs["value"]  if vs  else "",
 
-                "end_date": end_date.strftime("%m/%d/%Y"),
+                "__EVENTVALIDATION":    ev["value"]  if ev  else "",
+
+                "__VIEWSTATEGENERATOR": vsg["value"] if vsg else "",
+
+                # Try both common ASP.NET naming patterns
+
+                "ctl00$cphBody$ddlCounty":              bartow_value,
+
+                "ctl00$ContentPlaceHolder1$ddlCounty":  bartow_value,
+
+                "ctl00$cphBody$ddlDocType":             doc_code,
+
+                "ctl00$ContentPlaceHolder1$ddlDocType": doc_code,
+
+                "ctl00$cphBody$txtFromDate":            start_date.strftime("%m/%d/%Y"),
+
+                "ctl00$ContentPlaceHolder1$txtFromDate":start_date.strftime("%m/%d/%Y"),
+
+                "ctl00$cphBody$txtToDate":              end_date.strftime("%m/%d/%Y"),
+
+                "ctl00$ContentPlaceHolder1$txtToDate":  end_date.strftime("%m/%d/%Y"),
+
+                "ctl00$cphBody$btnSearch":              "Search",
+
+                "ctl00$ContentPlaceHolder1$btnSearch":  "Search",
 
             }
 
-            response = session.get(search_url, params=params, timeout=30)
-
-            print(f"  Status: {response.status_code}")
-
-            soup = BeautifulSoup(response.text, "html.parser")
 
 
+            # Override with the real field name if we found it
 
-            for table in soup.find_all("table"):
+            if county_field_name:
 
-                rows = table.find_all("tr")
+                post_data[county_field_name] = bartow_value
 
-                for row in rows[1:]:
 
-                    cells = row.find_all(["td"])
 
-                    if len(cells) >= 3:
+            r2 = session.post(SEARCH_URL, data=post_data, timeout=30)
+
+            print(f"  Response: {r2.status_code}  |  {len(r2.text)} chars")
+
+
+
+            soup2   = BeautifulSoup(r2.text, "html.parser")
+
+            pg_text = soup2.get_text(separator=" ").lower()
+
+
+
+            # Debug snippet
+
+            print(f"  Page text sample: {pg_text[300:550]}")
+
+
+
+            if "no record" in pg_text or "0 record" in pg_text:
+
+                print(f"  → Site says no records for {doc_code}")
+
+                continue
+
+
+
+            found = 0
+
+            for table in soup2.find_all("table"):
+
+                for row in table.find_all("tr")[1:]:   # skip header
+
+                    cells = row.find_all("td")
+
+                    if len(cells) >= 2:
 
                         name = cells[0].get_text(strip=True)
 
-                        if name and name.lower() not in ["name", "grantor", "grantee", ""]:
+                        if name and len(name) > 3:
+
+                            found += 1
 
                             records.append({
 
-                                "name": name,
+                                "name":        name,
 
-                                "address": cells[1].get_text(strip=True) if len(cells) > 1 else "",
+                                "address":     cells[1].get_text(strip=True) if len(cells) > 1 else "",
 
                                 "case_number": cells[2].get_text(strip=True) if len(cells) > 2 else "",
 
-                                "date": cells[3].get_text(strip=True) if len(cells) > 3 else "",
+                                "date":        cells[3].get_text(strip=True) if len(cells) > 3 else "",
 
-                                "doc_type": doc_name,
+                                "doc_type":    doc_label,
 
                             })
 
+            print(f"  → Parsed {found} records")
+
+
+
         except Exception as e:
 
-            print(f"  Error: {e}")
+            print(f"  ERROR: {e}")
+
+            traceback.print_exc()
 
 
 
@@ -196,17 +268,15 @@ def fetch_gsccca(start_date, end_date):
 
 def main():
 
-    end_date = datetime.date.today()
+    end_date   = datetime.date.today()
 
     start_date = end_date - datetime.timedelta(days=LOOKBACK_DAYS)
 
-    print(f"Fetching Bartow County leads: {start_date} to {end_date}")
-
-
+    print(f"Bartow County GA leads: {start_date} → {end_date}")
 
     records = fetch_gsccca(start_date, end_date)
 
-    print(f"Total records: {len(records)}")
+    print(f"\nTotal records: {len(records)}")
 
     save_results(records, start_date, end_date)
 
