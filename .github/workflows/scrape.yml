@@ -42,9 +42,8 @@ jobs:
 
         run: |
 
-          pip install -r scraper/requirements.txt
-
-          playwright install chromium
+          pip install requests beautifulsoup4 playwright
+          playwright install chromium --with-deps
 
 
 
