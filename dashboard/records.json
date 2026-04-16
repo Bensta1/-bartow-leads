@@ -1,220 +1,309 @@
 {
-  "fetched_at": "2026-04-16T02:54:34.795389Z",
+  "fetched_at": "2026-04-16T03:00:00.762361Z",
   "date_range": {
     "start": "2026-03-17",
     "end": "2026-04-16"
   },
   "county": "Bartow",
   "state": "GA",
-  "total": 26,
+  "total": 33,
   "records": [
     {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF FORECLOSURE SALE UNDER POWER OF SALE NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF BARTOW Pursuant to a power of sale contained in a certain security deed executed by FRED NICHOLAS COX and CHASITY D COX, hereinafter referred to as Grantor, to Mortgage El ... click 'view' to open the full text.",
+      "name": "LEONARD A DANNELLEY",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
+      "date": "April 02, 2026",
       "doc_type": "Foreclosures",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 02, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure"
     },
     {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER\n \nGEORGIA, BARTOW COUNTY\n \nUnder and by virtue of the Power of Sale contained in a Security Deed given by David L Deboard to Mortgage Electronic Registration Systems, Inc., as grantee, as nominee for Countrywide Bank, FSB, its successors and assigns dated December 7, 2007, ... click 'view' to open the full text.",
+      "name": "LEONARD A DANNELLEY",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER, BARTOW COUNTY Pursuant to the Power of Sale contained in a Security Deed given by Marandy R Crawford to JPMorgan Chase Bank, N.A. dated 10/31/2024 and recorded in Deed Book 3687 Page 823 Bartow County, Georgia records; as last transferred to or acquired by Rocket Mortgage ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER\n \nCOUNTY OF BARTOW\nSTATE OF GEORGIA\n \nBy virtue of the power of sale contained in the Security Deed from K&P Hospitality LLC (hereafter \u201cBorrower\u201d) to North Georgia National Bank (hereafter \u201cLender\u201d) dated September 12, 2024, recorded in Bartow County Deed Book 3690, Pages ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF FORECLOSURE SALE UNDER POWER\n \nBARTOW COUNTY, GEORGIA\n \nUnder and by virtue of the Power of Sale contained in a Security Deed given by Robert Link Whisenant to Mortgage Electronic Registration Systems, Inc., as grantee, as nominee for Homestar Financial Corp, dated July 15, 2020, and recor ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER\n \nCOUNTY OF BARTOW\nSTATE OF GEORGIA\n \nBy virtue of the power of sale contained in the Security Deed from K&P Hospitality LLC (hereafter \u201cBorrower\u201d) to North Georgia National Bank (hereafter \u201cLender\u201d) dated September 12, 2024, recorded in Bartow County Deed Book 3690, Pages ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER\n \nGEORGIA, BARTOW COUNTY\n \nUnder and by virtue of the Power of Sale contained in a Security Deed given by David L Deboard to Mortgage Electronic Registration Systems, Inc., as grantee, as nominee for Countrywide Bank, FSB, its successors and assigns dated December 7, 2007, ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER\n \nGEORGIA, Bartow COUNTY\n \nTHIS LAW FIRM IS ACTING AS A DEBT COLLECTOR ATTEMPTING TO COLLECT A DEBT. ANY INFORMATION OBTAINED WILL BE USED FOR THAT PURPOSE.\n \nUnder and by virtue of the Power of Sale contained in that certain Revolving Credit Security Deed given by Bryon A ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNotice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure Debt given by LEONARD A DANNELLEY to WELLS FARGO BANK, N.A. , dated 10/22/2009, and Recorded on 11/04/2009 as Book No. 2392 and Page No. 808-823, BARTOW County, Geor ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER\n \nGEORGIA, BARTOW COUNTY\n \nUnder and by virtue of the Power of Sale contained in a Security Deed given by Montrice Winters to Inspire Home Loans Inc. dated September 7, 2022, recorded in Deed Book 3497, Page 744, Bartow County, Georgia Records, as last transferred to Georg ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Foreclosures",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "Results Back\n\n\n\n\n\n\n\n\n\n\nPage\n1\n of 4 Pages",
-      "address": "Results Back",
       "date": "",
       "doc_type": "Foreclosures",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure Debt given by LEONARD A DANNELLEY to WELLS FARGO BANK, N.A. , dated 10/22/2009, and Recorded on 11/04/2009 as Book No. 2392 and Page No. 808-823, BARTOW County, Geor"
     },
     {
-      "name": "Marietta Daily Journal\n                                    Friday, April 10, 2026\nCity: Marietta\n                                    County: Cobb\n\n\n\n\ngpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia, deceased, are hereby notified to render their demand to the undersigned, at the address of his/her attorney set forth below, according to law, and all pers ... click 'view' to open the full text.",
+      "name": "LEONARD A DANNELLEY",
       "address": "",
-      "date": "Marietta Daily Journal\n                                    Friday, April 10, 2026\nCity: Marietta\n                                    County: Cobb",
+      "date": "",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure Debt given by LEONARD A DANNELLEY to WELLS FARGO BANK, N.A. , dated 10/22/2009, and Recorded on 11/04/2009 as Book No. 2392 and Page No. 808-823, BARTOW County, Geor"
+    },
+    {
+      "name": "Estate of JAMES W. PARKER",
+      "address": "",
+      "date": "April 10, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "Marietta Daily Journal                                     Friday, April 10, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia,"
     },
     {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nCOUNTY OF BARTOW\nSTATE OF GEORGIA\n \nNOTICE TO DEBTORS AND CREDITORS\n \nNOTICE TO DEBTORS AND CREDITORS: All creditors of the Estate of ELAINE MARIE JONES, late of Bartow, Georgia, deceased, are hereby notified to render their demand to the undersigned according to law, and all persons indebted to sai ... click 'view' to open the full text.",
+      "name": "Estate of JAMES W. PARKER",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF FORECLOSURE SALE UNDER POWER OF SALE NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF BARTOW Pursuant to a power of sale contained in a certain security deed executed by FRED NICHOLAS COX and CHASITY D COX, hereinafter referred to as Grantor, to Mortgage El ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\n \nAll creditors of the Estate of Paula J. Garland, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned.\n ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\n \nAll creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersi ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\n \nAll creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigne ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\n \nAll creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned.\n ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\nSTATE OF GEORGIA\nCOUNTY OF BARTOW\n \nIN RE: ESTATE OF RONNIE LONZO CANTRELL\n \nAll creditors of the Estate of RONNIE LONZO CANTRELL, deceased, late of Bartow County, Georgia, are hereby notified to render their demands to the undersigned according to law. All persons in ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\n \nAll creditors of the Estate of Joann Elaine Kutas, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE TO DEBTORS AND CREDITORS\n \nAll creditors of the estate of JANNIE LYNN JAMES, late of Bartow County, Georgia, deceased, are hereby notified to render their demand to the undersigned, at the address of his/her attorney set forth below, according to law, and all persons indebted to said estate a ... click 'view' to open the full text.",
-      "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 09, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA"
-    },
-    {
-      "name": "Results Back\n\n\n\n\n\n\n\n\n\n\nPage\n1\n of 23 Pages",
-      "address": "Results Back",
       "date": "",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia, deceased, are hereby notified to render their demand to the undersigned, at the address of his/her attorney set forth below, according to law, and all pers"
     },
     {
-      "name": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER CONTAINED IN\nSECURITY DEED\n \nSTATE OF GEORGIA\n \nCOUNTY OF BARTOW\n \nPursuant to a power of sale contained in a certain security deed executed by Claudia Roper, hereinafter referred to as Grantor, to Primary Residential Mortgage, Inc. DBA Element Funding recorded in Deed Boo ... click 'view' to open the full text.",
+      "name": "Estate of ELAINE MARIE JONES",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, April 02, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Sheriff's/Marshal's Sales",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    COUNTY OF BARTOW STATE OF GEORGIA   NOTICE TO DEBTORS AND CREDITORS   NOTICE TO DEBTORS AND CREDITORS: All creditors of the Estate of E"
     },
     {
-      "name": "The Daily Tribune News\n                                    Thursday, March 26, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nAttorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19, 3/26, 4/2 #1981\nCLASS:10900\nNOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby noti ... click 'view' to open the full text.",
+      "name": "Estate of ELAINE MARIE JONES",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, March 26, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Sheriff's/Marshal's Sales",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "COUNTY OF BARTOW STATE OF GEORGIA   NOTICE TO DEBTORS AND CREDITORS   NOTICE TO DEBTORS AND CREDITORS: All creditors of the Estate of ELAINE MARIE JONES, late of Bartow, Georgia, deceased, are hereby notified to render their demand to the undersigned according to law, and all persons indebted to sai"
     },
     {
-      "name": "The Daily Tribune News\n                                    Thursday, March 19, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER CONTAINED IN\nSECURITY DEED\n \nSTATE OF GEORGIA\n \nCOUNTY OF BARTOW\n \nPursuant to a power of sale contained in a certain security deed executed by Claudia Roper, hereinafter referred to as Grantor, to Primary Residential Mortgage, Inc. DBA Element Funding recorded in Deed Boo ... click 'view' to open the full text.",
+      "name": "Estate of Paula J. Garland",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, March 19, 2026\nCity: Cartersville\n                                    County: Bartow",
-      "doc_type": "Sheriff's/Marshal's Sales",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Paula J. Garland, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
-      "name": "The Daily Tribune News\n                                    Thursday, March 12, 2026\nCity: Cartersville\n                                    County: Bartow\n\n\n\nNOTICE OF SALE UNDER POWER CONTAINED IN\nSECURITY DEED\n \nSTATE OF GEORGIA\n \nCOUNTY OF BARTOW\n \nPursuant to a power of sale contained in a certain security deed executed by Claudia Roper, hereinafter referred to as Grantor, to Primary Residential Mortgage, Inc. DBA Element Funding recorded in Deed Boo ... click 'view' to open the full text.",
+      "name": "Estate of Paula J. Garland",
       "address": "",
-      "date": "The Daily Tribune News\n                                    Thursday, March 12, 2026\nCity: Cartersville\n                                    County: Bartow",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Paula J. Garland, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned."
+    },
+    {
+      "name": "Estate of CHARLES EDWARD MAULDEN",
+      "address": "",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are here"
+    },
+    {
+      "name": "Estate of CHARLES EDWARD MAULDEN",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersi"
+    },
+    {
+      "name": "Estate of WILLIAM ILA JOHNSON",
+      "address": "",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
+    },
+    {
+      "name": "Estate of WILLIAM ILA JOHNSON",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigne"
+    },
+    {
+      "name": "Estate of NICHOLAS F. ZALE",
+      "address": "",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby not"
+    },
+    {
+      "name": "Estate of NICHOLAS F. ZALE",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned."
+    },
+    {
+      "name": "Estate of RONNIE LONZO CANTRELL",
+      "address": "",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Estat"
+    },
+    {
+      "name": "Estate of RONNIE LONZO CANTRELL",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Estate of RONNIE LONZO CANTRELL, deceased, late of Bartow County, Georgia, are hereby notified to render their demands to the undersigned according to law. All persons in"
+    },
+    {
+      "name": "Estate of Joann Elaine Kutas",
+      "address": "",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Joann Elaine Kutas, deceased, of Bartow County, Georgia, are hereby n"
+    },
+    {
+      "name": "Estate of Joann Elaine Kutas",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Joann Elaine Kutas, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned"
+    },
+    {
+      "name": "Estate of JANNIE LYNN JAMES",
+      "address": "",
+      "date": "April 09, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, April 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of JANNIE LYNN JAMES, late of Bartow County, Georgia, deceased, are here"
+    },
+    {
+      "name": "Estate of JANNIE LYNN JAMES",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of JANNIE LYNN JAMES, late of Bartow County, Georgia, deceased, are hereby notified to render their demand to the undersigned, at the address of his/her attorney set forth below, according to law, and all persons indebted to said estate a"
+    },
+    {
+      "name": "Estate of JAMES W. PARKER",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia, deceased, are hereby notified to render their demand to the undersigned, at the address of his/her attorney set forth below, according to law, and all pers"
+    },
+    {
+      "name": "Estate of ELAINE MARIE JONES",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "COUNTY OF BARTOW STATE OF GEORGIA   NOTICE TO DEBTORS AND CREDITORS   NOTICE TO DEBTORS AND CREDITORS: All creditors of the Estate of ELAINE MARIE JONES, late of Bartow, Georgia, deceased, are hereby notified to render their demand to the undersigned according to law, and all persons indebted to sai"
+    },
+    {
+      "name": "Estate of Paula J. Garland",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Paula J. Garland, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned."
+    },
+    {
+      "name": "Estate of CHARLES EDWARD MAULDEN",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersi"
+    },
+    {
+      "name": "Estate of WILLIAM ILA JOHNSON",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigne"
+    },
+    {
+      "name": "Estate of NICHOLAS F. ZALE",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned."
+    },
+    {
+      "name": "Estate of RONNIE LONZO CANTRELL",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Estate of RONNIE LONZO CANTRELL, deceased, late of Bartow County, Georgia, are hereby notified to render their demands to the undersigned according to law. All persons in"
+    },
+    {
+      "name": "Estate of Joann Elaine Kutas",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Joann Elaine Kutas, deceased, of Bartow County, Georgia, are hereby notified to render their demand to the undersigned, according to law, and all persons indebted to said Estate are required to make immediate payment to the undersigned"
+    },
+    {
+      "name": "Estate of JANNIE LYNN JAMES",
+      "address": "",
+      "date": "",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of JANNIE LYNN JAMES, late of Bartow County, Georgia, deceased, are hereby notified to render their demand to the undersigned, at the address of his/her attorney set forth below, according to law, and all persons indebted to said estate a"
+    },
+    {
+      "name": "Estate of NICHOLAS F. ZALE",
+      "address": "",
+      "date": "March 26, 2026",
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
-      "state": "GA"
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
+    },
+    {
+      "name": "Estate of NICHOLAS F. ZALE",
+      "address": "",
+      "date": "",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19, 3/26, 4/2 #1981 CLASS:10900 NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby noti"
+    },
+    {
+      "name": "Estate of NICHOLAS F. ZALE",
+      "address": "",
+      "date": "",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19, 3/26, 4/2 #1981 CLASS:10900 NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby noti"
     }
   ]
 }
