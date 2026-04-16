@@ -2,8 +2,6 @@ import json, datetime, os, requests
 
 from bs4 import BeautifulSoup
 
-
-
 OUTPUT_FILE = "dashboard/records.json"
 
 LOOKBACK_DAYS = 30
@@ -22,7 +20,7 @@ session.headers.update({"User-Agent": "Mozilla/5.0 Chrome/120.0.0.0"})
 
 resp = session.get("https://georgiapublicnotice.com", timeout=20)
 
-print("GET status: " + str(resp.status_code))
+print("GET: " + str(resp.status_code))
 
 soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -38,85 +36,35 @@ viewstate_gen = vsg["value"] if vsg else ""
 
 event_val = ev["value"] if ev else ""
 
-print("Viewstate length: " + str(len(viewstate)))
+print("Viewstate OK: " + str(len(viewstate) > 100))
 
-print("--- ALL INPUT NAMES ---")
+BTN = "ctl100$ContentPlaceHolder1$as1$btnTool"
 
-for inp in soup.find_all("input"):
+TXT = "ctl100$ContentPlaceHolder1$as1$txtSearch"
 
-    n = inp.get("name", "")
+COUNTY = "ctl100$ContentPlaceHolder1$as1$lstCounty$7"
 
-    v = inp.get("value", "")
-
-    t = inp.get("type", "")
-
-    if n:
-
-        print("  " + t + " | " + n + " | val=" + v[:30])
-
-print("--- ALL SELECT NAMES ---")
-
-for sel in soup.find_all("select"):
-
-    n = sel.get("name", "")
-
-    opts = [o.get("value","") + "=" + o.get_text().strip() for o in sel.find_all("option")]
-
-    print("  " + n + ": " + str(opts[:15]))
-
-BTN    = "ctl100$ContentPlaceHolder1$as1$btnTool"
-
-TXT    = "ctl100$ContentPlaceHolder1$as1$txtSearch"
-
-COUNTY = "ctl100$ContentPlaceHolder1$as1$lstCounty7"
-
-DDL    = "ctl100$ContentPlaceHolder1$as1$ddlPopularSearches"
+DDL = "ctl100$ContentPlaceHolder1$as1$ddlPopularSearches"
 
 for category in ["Debtors and Creditors", "Condemnations"]:
 
-    print("--- Category: " + category + " ---")
+    print("Searching: " + category)
 
-    post_data = {
-
-        "__VIEWSTATE": viewstate,
-
-        "__VIEWSTATEGENERATOR": viewstate_gen,
-
-        "__EVENTVALIDATION": event_val,
-
-        "__LASTFOCUS": "",
-
-        "__EVENTTARGET": "",
-
-        "__EVENTARGUMENT": "",
-
-        DDL: category,
-
-        COUNTY: "on",
-
-        BTN: "Search"
-
-    }
+    post_data = {"__VIEWSTATE": viewstate, "__VIEWSTATEGENERATOR": viewstate_gen, "__EVENTVALIDATION": event_val, "__LASTFOCUS": "", "__EVENTTARGET": "", "__EVENTARGUMENT": "", DDL: category, COUNTY: "on", BTN: "Search"}
 
     r = session.post("https://georgiapublicnotice.com", data=post_data, timeout=20)
 
-    print("POST status: " + str(r.status_code))
+    print("POST: " + str(r.status_code))
 
     rsoup = BeautifulSoup(r.text, "html.parser")
 
-    body = rsoup.get_text()
-
-    print("Response snippet: " + body[200:800])
+    print(rsoup.get_text()[200:600])
 
     found = 0
 
     for tbl in rsoup.find_all("table"):
 
         rows = tbl.find_all("tr")
-
-        if len(rows) < 2:
-
-            continue
 
         for row in rows[1:]:
 
@@ -138,10 +86,8 @@ print("TOTAL: " + str(len(records)))
 
 os.makedirs("dashboard", exist_ok=True)
 
-data = {"fetched_at": datetime.datetime.utcnow().isoformat() + "Z", "source": "Georgia Public Notice", "county": "Bartow", "state": "GA", "date_range": {"start": str(start_date), "end": str(end_date)}, "lookback_days": LOOKBACK_DAYS, "total": len(records), "with_address": sum(1 for r in records if r.get("address")), "records": records}
-
 with open(OUTPUT_FILE, "w") as f:
 
-    json.dump(data, f, indent=2)
+    json.dump({"fetched_at": datetime.datetime.utcnow().isoformat() + "Z", "county": "Bartow", "state": "GA", "total": len(records), "records": records}, f, indent=2)
 
-print("Saved to " + OUTPUT_FILE)
+print("Done")
