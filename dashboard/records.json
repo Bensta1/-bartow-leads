@@ -1,7 +1,188 @@
 {
-  "fetched_at": "2026-04-16T02:38:39.606965Z",
+  "fetched_at": "2026-04-16T02:45:10.409351Z",
+  "date_range": {
+    "start": "2026-03-17",
+    "end": "2026-04-16"
+  },
   "county": "Bartow",
   "state": "GA",
-  "total": 0,
-  "records": []
+  "total": 22,
+  "records": [
+    {
+      "name": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\nFN6465 GPN11 FN6465 GPN11 NOTICE OF FORECLOSURE SALE UNDER POWER OF SALE  NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF FULTON Pursuant to a power of sale contained in a certain security deed executed by JENNIFER A MC DOWELL and LEE H MC DOWELL JR, hereinafter ref ... click 'view' to open the full text.",
+      "address": "",
+      "date": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\nFN6464 GPN11 FN6464 GPN11 NOTICE OF FORECLOSURE SALE UNDER POWER OF SALE  NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF FULTON Pursuant to a power of sale contained in a certain security deed executed by ELIZABETH MASON and RACHEL MASON, hereinafter referred to as ... click 'view' to open the full text.",
+      "address": "",
+      "date": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Thomasville Times-Enterprise\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\nNOTICE OF FORECLOSURE SALE UNDER POWER OF SALE  NOTICE OF SALE\nUNDER POWER CONTAINED IN SECURITY DEED \n\nSTATE OF GEORGIA, \nCOUNTY OF THOMAS \n\nPursuant to a power of sale contained in a certain security deed executed by EDDIE R MAYS and HATTIE M MAYS, hereinafter referred to as Grantor, to The  ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Thomasville Times-Enterprise\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Clayton News Daily\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\n  CND3457 GPN11  NOTICE OF  FORECLOSURE OF RIGHT TO REDEEM [REF. O.C.G.A., Section 48-4-5 et seq.; 48-4-45 & 48-4-46]  TO:D.M. JOHNSON A/K/A DWIGHT MOODY JOHNSON OR ANY UNKNOWN ESTATE REPRESENTATIVE OR UNKNOWN HEIRS AT LAW; DOUGLAS JOHNSON OR ANY UNKNOWN ESTATE REPRESENTATIVE OR UNKNOWN HEIRS AT L ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Clayton News Daily\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Henry Daily Herald\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn11 hdh1665   Hdh1665 gpn11 NOTICE OF  FORECLOSURE SALE UNDER POWER  OF SALE   NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED  STATE OF GEORGIA, COUNTY OF HENRY Pursuant to a power of sale contained in a certain security deed executed by ESTATE OF Eugene Simpson and ESTATE OF Claudine P S ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Henry Daily Herald\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Henry Daily Herald\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn11 hdh1663   Hdh1663 gpn11 NOTICE OF  FORECLOSURE SALE UNDER POWER  OF SALE   NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF HENRY Pursuant to a power of sale contained in a certain security deed executed by CLAUDE E HOUSE JR and BERNICE S HOUSE, hereinafter r ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Henry Daily Herald\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn11 GDP6186 GDP6186 gpn11 NOTICE OF FORECLOSURE SALE UNDER POWER OF SALE  NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED  STATE OF GEORGIA, COUNTY OF  GWINNETT  Pursuant to a power of sale contained in a certain security deed executed by JASMINE PEREZ and JOE HARTY PEREZ, hereinafter refe ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Polk Standard Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn11 SJ2662 SJ2662 gpn11 NOTICE OF FORECLOSURE SALE UNDER POWER OF SALE  NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF POLK  Pursuant to a power of sale contained in a certain security deed executed by Lisa P Collier, hereinafter referred to as Grantor, to The  ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Polk Standard Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Houston Home Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\"Foreclosures\"\t1635\t\"\"\t99857\t\"26-462 NOTICE OF FORECLOSURE SALE UNDER POWER OF SALE  NOTICE OF SALE UNDER POWER CONTAINED IN SECURITY DEED STATE OF GEORGIA, COUNTY OF HOUSTON  Pursuant to a power of sale contained in a certain security deed executed by DASHA A THARPE, hereinafter referred to as Gran ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Houston Home Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Houston Home Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\"Foreclosures\"\t1635\t\"\"\t98734\t\"26-400 NOTICE OF DEFAULT AND FORECLOSURE SALE WHEREAS, on December 12, 2012, a certain Security Deed was executed by Lyle R. Signer, a married man and Donna Signer as grantor(s) in favor of Mortgage Electronic Registration Systems, Inc., as Grantee, as nominee for Royal ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Houston Home Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Results Back\n\n\n\n\n\n\n\n\n\n\nPage\n1\n of 100 Pages",
+      "address": "Results Back",
+      "date": "",
+      "doc_type": "Foreclosures",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\nFN6595 GPN11 FN6595 GPN11 SHERIFF SALE #: 0526 57017 TAX PARCEL ID: 14F-0061-0003-042-0 CURRENT RECORD HOLDER: GREENBRIAR DEVELOPMENT GROUP LTD & BACK POCKET PROPERTIES LLC (VIA TAX DEED INTEREST) DEFENDANT IN FIFA: GUILFORD FOREST ASSOCIATES LTD, GREENBRIAR DEVELOPMENT GROUP LTD, BACK POCKET PROPER ... click 'view' to open the full text.",
+      "address": "",
+      "date": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\nFN6593 GPN20 FN6593 GPN20 SHERIFF SALE #: 0526 57014 TAX PARCEL ID: 14-0242-0001-009-9 CURRENT RECORD HOLDER: SUMMER RYAN HARDEMAN (VIA TAX DEED INTEREST), TLC REALTY LLC & GODWIN INVESTORS LLC DEFENDANT IN FIFA: JAYSEN & KAREN HURSH, TLC REALTY LLC, RYAN HARDEMAN ESTATE AND ALL HEIRS KNOWN AND UNKN ... click 'view' to open the full text.",
+      "address": "",
+      "date": "South Fulton Neighbor\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\n    Gdp6245 gpn18  Person Filing: Teri M. Rowe Address (if not protected): 650 North 3rd Avenue City, State, Zip Code: Phoenix, AZ 85003 Telephone: (602)648-4045 Email Address: teri@mkrfirm.com Representing [D ] Self or (? ] Attorney for: Lawyer's Bar Number: 023957, Issuing State: AZ   SUPERIOR C ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Walker County Messenger\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn19  gpn19 WM3582 PUBLIC NOTICE Items available for sale by The Walker County Sheriff's Office or Lookout Mountain Judicial Circuit Drug Task Force will be sold to the highest bidder online at www.govdeals.com. 1-18+\n       ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Walker County Messenger\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Houston Home Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\"Foreclosures\"\t1635\t\"\"\t97930\t\"26-367 NOTICE OF FORECLOSURE  OF RIGHT OF REDEMPTION [REF O.C.G.A. \u00a7 48-4-5 et seq.: 48-4-45 & 48-4-46] TO: Taxpayer and Defendant in Fieri Facias Susan M. Styer f/k/a Clarissa S. May and Estate of Cary Webb, Sr., known and unknown heirs; all persons known and unknown h ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Houston Home Journal\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn18 GDP6468 GDP6468 GPN18 IN THE SUPERIOR COURT OF GWINNETT COUNTY STATE OF GEORGIA  SMOOT INVESTMENTS INC., Petitioner, v. DARREL PAULDO; LOANDEPOT.COM, LLC; GEORGIA DEPARTMENT OF REVENUE; REPUBLIC FINANCE, LLC; and KEYBO TAYLOR, in His Official Capacity as Sheriff of Gwinnett County, Georgia,  ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn11 gdp6204 Gdp6204 gpn11 NOTICE OF SALE  UNDER POWER  Pursuant to a power of sale in Security Deeds , as amended, from the Taneshia Davis-Holbrook and Gregory Holbrook (Grantor) in favor of Synovus Bank (Lender), recorded in Deed Book 60646, Page 677, Gwinnett County, GA Records., securing Lend ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn12 GDP6537 GDP6537 gpn12 IN THE SUPERIOR COURT OF GWINNETT COUNTY STATE OF GEORGIA STATE OF GEORGIA, Plaintiff, VS TWENTY-EIGHT  THOUSAND FIFTYTHREE  DOLLARS ($28,053.00) US CURRENCY, Defendant, in rem. KENYA TYREE ELLIS, Owner/Interest Holder.  CIVIL ACTION NO. 25-A-10397-2 GWINNETT COUNTY SHE ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn19 gdp6237 Gdp6237 gpn19 SHERIFFS SALE STATE OF GEORGIA GWINNETT COUNTY  SUPERIOR COURT OF  GWINNETT COUNTY CIVIL ACTION NUMBER 21-A-09812-7;  25-A-06018-7 (Writ of Fieri Facias)  WINTERGREEN CONDOMINIUM ASSOCIATION INC -VS- AURA C SOLANO-MARTINEZ AND MELISSA TEJEDA  \tPursuant to O.C.G.A. 44-3- ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County: \n\n\n\n\ngpn19 gdp6236 Gdp6236 gpn19 SHERIFFS SALE STATE OF GEORGIA GWINNETT COUNTY  SUPERIOR COURT OF  GWINNETT COUNTY CIVIL ACTION NUMBER 25-A-05302-9 (Writ of Fieri Facias)  STONEWATER CREEK HOMEOWNERS ASSOCIATION, INC. -VS- MICHAEL HAMBRICK  \tPursuant to O.C.G.A. 44-3-232(c) of the Georgia Property Own ... click 'view' to open the full text.",
+      "address": "",
+      "date": "Gwinnett Daily Post\n                                    Wednesday, April 15, 2026\nCity: \n                                    County:",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    },
+    {
+      "name": "Results Back\n\n\n\n\n\n\n\n\n\n\nPage\n1\n of 100 Pages",
+      "address": "Results Back",
+      "date": "",
+      "doc_type": "Sheriff's/Marshal's Sales",
+      "county": "Bartow",
+      "state": "GA"
+    }
+  ]
 }
