@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Bartow County Leads</title>
+
+  <style>
+
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f4f4f4; }
+
+    h1 { color: #333; }
+
+    table { width: 100%; border-collapse: collapse; background: white; }
+
+    th { background: #2c3e50; color: white; padding: 10px; text-align: left; }
+
+    td { padding: 10px; border-bottom: 1px solid #ddd; }
+
+    tr:hover { background: #f0f0f0; }
+
+    #count { margin: 10px 0; font-weight: bold; color: #2c3e50; }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>🏠 Bartow County Leads</h1>
+
+  <div id="count">Loading...</div>
+
+  <table>
+
+    <thead>
+
+      <tr>
+
+        <th>Name</th>
+
+        <th>Address</th>
+
+        <th>Case #</th>
+
+        <th>Date</th>
+
+      </tr>
+
+    </thead>
+
+    <tbody id="leads-body"></tbody>
+
+  </table>
+
+
+
+  <script>
+
+    fetch('records.json')
+
+      .then(r => r.json())
+
+      .then(data => {
+
+        document.getElementById('count').textContent = `Total Leads: ${data.length}`;
+
+        const body = document.getElementById('leads-body');
+
+        data.forEach(lead => {
+
+          body.innerHTML += `<tr>
+
+            <td>${lead.name || ''}</td>
+
+            <td>${lead.address || ''}</td>
+
+            <td>${lead.case_number || ''}</td>
+
+            <td>${lead.date || ''}</td>
+
+          </tr>`;
+
+        });
+
+      })
+
+      .catch(() => {
+
+        document.getElementById('count').textContent = 'No data yet — run the scraper!';
+
+      });
+
+  </script>
+
+</body>
+
+</html>
