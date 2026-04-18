@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-04-17T11:17:20.923221Z",
+  "fetched_at": "2026-04-18T10:10:51.654733Z",
   "date_range": {
-    "start": "2026-03-18",
-    "end": "2026-04-17"
+    "start": "2026-03-19",
+    "end": "2026-04-18"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "Marietta Daily Journal                                     Friday, April 17, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia,"
+      "raw": "Marietta Daily Journal                                     Friday, April 17, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia"
     },
     {
       "name": "Estate of ELAINE MARIE JONES",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Paula J. Garland, deceased, of Bartow County, Georgia, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Paula J. Garland, deceased, of Bartow County, Georgia, are hereby noti"
     },
     {
       "name": "Estate of CHARLES EDWARD MAULDEN",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are here"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are hereb"
     },
     {
       "name": "Estate of KIOUKU CARTER",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Esta"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Estat"
     },
     {
       "name": "Estate of Joann Elaine Kutas",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -96,7 +96,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
     }
   ]
 }
