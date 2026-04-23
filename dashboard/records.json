@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-04-22T11:43:57.193466Z",
+  "fetched_at": "2026-04-23T11:45:12.218553Z",
   "date_range": {
-    "start": "2026-03-23",
-    "end": "2026-04-22"
+    "start": "2026-03-24",
+    "end": "2026-04-23"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    COUNTY OF BARTOW STATE OF GEORGIA   NOTICE TO DEBTORS AND CREDITORS   NOTICE TO DEBTORS AND CREDITORS: All creditors of the Estate of E"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    COUNTY OF BARTOW STATE OF GEORGIA   NOTICE TO DEBTORS AND CREDITORS   NOTICE TO DEBTORS AND CREDITORS: All creditors of the Estate of"
     },
     {
       "name": "Estate of Paula J. Garland",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Joann Elaine Kutas, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Joann Elaine Kutas, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of WILLIAM ILA JOHNSON",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, April 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of NICHOLAS F. ZALE, deceased, of Bartow County, Georgia, are hereby noti"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -96,7 +96,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
     }
   ]
 }
