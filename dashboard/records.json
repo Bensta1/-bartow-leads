@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-04-26T10:33:25.176486Z",
+  "fetched_at": "2026-04-27T13:10:16.947992Z",
   "date_range": {
-    "start": "2026-03-27",
-    "end": "2026-04-26"
+    "start": "2026-03-28",
+    "end": "2026-04-27"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Estat"
+      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF RONNIE LONZO CANTRELL   All creditors of the Esta"
     },
     {
       "name": "Estate of Joann Elaine Kutas",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notifi"
     },
     {
       "name": "Estate of CHARLES EDWARD MAULDEN",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CHARLES EDWARD MAULDEN, deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of WILLIAM ILA JOHNSON",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -87,7 +87,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
     }
   ]
 }
