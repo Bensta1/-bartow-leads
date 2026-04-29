@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-04-28T16:15:00.260072Z",
+  "fetched_at": "2026-04-29T13:12:00.781820Z",
   "date_range": {
-    "start": "2026-03-29",
-    "end": "2026-04-28"
+    "start": "2026-03-30",
+    "end": "2026-04-29"
   },
   "county": "Bartow",
   "state": "GA",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notifi"
+      "raw": "The Daily Tribune News                                     Thursday, April 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notifie"
     },
     {
       "name": "Estate of CHARLES EDWARD MAULDEN",
