@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-02T10:39:07.339816Z",
+  "fetched_at": "2026-05-03T11:08:52.526109Z",
   "date_range": {
-    "start": "2026-04-02",
-    "end": "2026-05-02"
+    "start": "2026-04-03",
+    "end": "2026-05-03"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "Marietta Daily Journal                                     Friday, May 01, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia,"
+      "raw": "Marietta Daily Journal                                     Friday, May 01, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-2067 MDJ-2067 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of JAMES W. PARKER, late of Bartow County, Georgia, d"
     },
     {
       "name": "Estate of Cody Satterfield",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CLAYTON HUGH GREEN SR., deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CLAYTON HUGH GREEN SR., deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of WILLIAM ILA JOHNSON",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of JACK RAY EDWARDS",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of RHONDA FAYE MCTAGGART, deceased, late of Bartow County, are hereby no"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of RHONDA FAYE MCTAGGART, deceased, late of Bartow County, are hereby not"
     },
     {
       "name": "Estate of BETTY JEAN MATTHEWS",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
