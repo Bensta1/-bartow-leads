@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-03T11:08:52.526109Z",
+  "fetched_at": "2026-05-04T13:14:46.987737Z",
   "date_range": {
-    "start": "2026-04-03",
-    "end": "2026-05-03"
+    "start": "2026-04-04",
+    "end": "2026-05-04"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of JACK RAY EDWARDS",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACK RAY EDWARDS, deceased, of Bartow County, Georgia, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACK RAY EDWARDS, deceased, of Bartow County, Georgia, are hereby noti"
     },
     {
       "name": "Estate of RHONDA FAYE MCTAGGART",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of RHONDA FAYE MCTAGGART, deceased, late of Bartow County, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of RHONDA FAYE MCTAGGART, deceased, late of Bartow County, are hereby no"
     },
     {
       "name": "Estate of BETTY JEAN MATTHEWS",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
     }
   ]
 }
