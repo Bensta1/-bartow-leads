@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-04T13:14:46.987737Z",
+  "fetched_at": "2026-05-05T11:53:28.428887Z",
   "date_range": {
-    "start": "2026-04-04",
-    "end": "2026-05-04"
+    "start": "2026-04-05",
+    "end": "2026-05-05"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WILLIAM ILA JOHNSON, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of JACK RAY EDWARDS",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of RHONDA FAYE MCTAGGART, deceased, late of Bartow County, are hereby no"
+      "raw": "The Daily Tribune News                                     Thursday, April 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of RHONDA FAYE MCTAGGART, deceased, late of Bartow County, are hereby not"
     },
     {
       "name": "Estate of BETTY JEAN MATTHEWS",
