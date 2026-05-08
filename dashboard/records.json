@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-07T15:57:33.464751Z",
+  "fetched_at": "2026-05-08T12:17:53.035631Z",
   "date_range": {
-    "start": "2026-04-07",
-    "end": "2026-05-07"
+    "start": "2026-04-08",
+    "end": "2026-05-08"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure D"
     },
     {
       "name": "Estate of BETTY JEAN MATTHEWS",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of Jon Oscher, Deceased",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of JOHN SUTHERLAND PIERCE, late of BARTOW County, deceased, are hereby not"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of JOHN SUTHERLAND PIERCE, late of BARTOW County, deceased, are hereby no"
     },
     {
       "name": "Estate of KIOUKU CARTER",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notified"
     },
     {
       "name": "Estate of JACQUELINE ANN WIRTZ",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
