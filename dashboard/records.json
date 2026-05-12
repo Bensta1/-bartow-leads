@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-11T17:14:53.047499Z",
+  "fetched_at": "2026-05-12T16:35:05.650107Z",
   "date_range": {
-    "start": "2026-04-11",
-    "end": "2026-05-11"
+    "start": "2026-04-12",
+    "end": "2026-05-12"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure D"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure"
     },
     {
       "name": "Estate of BETTY JEAN MATTHEWS",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of KEVIN DWAYNE LEWIS, late of Bartow County, Georgia, deceased, are hereb"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of KEVIN DWAYNE LEWIS, late of Bartow County, Georgia, deceased, are here"
     },
     {
       "name": "Estate of LAWRENCE EGGERSMAN, JR.",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAWRENCE EGGERSMAN, JR., deceased, of Bartow County, Georgia, are here"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAWRENCE EGGERSMAN, JR., deceased, of Bartow County, Georgia, are hereb"
     },
     {
       "name": "Estate of KENNETH DALE FERGUSON",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KIOUKU CARTER, deceased, of Bartow County, Georgia, are hereby notified"
     },
     {
       "name": "Estate of JACQUELINE ANN WIRTZ",
@@ -96,7 +96,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
     }
   ]
 }
