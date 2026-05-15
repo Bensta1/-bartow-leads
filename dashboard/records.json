@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-14T16:19:06.448013Z",
+  "fetched_at": "2026-05-15T13:20:21.193278Z",
   "date_range": {
-    "start": "2026-04-14",
-    "end": "2026-05-14"
+    "start": "2026-04-15",
+    "end": "2026-05-15"
   },
   "county": "Bartow",
   "state": "GA",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
     }
   ]
 }
