@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-15T13:20:21.193278Z",
+  "fetched_at": "2026-05-16T09:41:13.978969Z",
   "date_range": {
-    "start": "2026-04-15",
-    "end": "2026-05-15"
+    "start": "2026-04-16",
+    "end": "2026-05-16"
   },
   "county": "Bartow",
   "state": "GA",
@@ -11,65 +11,65 @@
     {
       "name": "DIAMOND WILLIAMS",
       "address": "",
-      "date": "May 06, 2026",
+      "date": "May 14, 2026",
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure D"
     },
     {
-      "name": "Estate of Jon Oscher, Deceased",
+      "name": "Estate of KENNETH DALE FERGUSON",
       "address": "",
       "date": "May 14, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Jon Oscher, Deceased, late of Bartow County, Georgia, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KENNETH DALE FERGUSON, deceased, of Bartow County, Georgia, are hereby"
     },
     {
-      "name": "Estate of RONALD ELTON THAGGARD",
+      "name": "Estate of JOHN SUTHERLAND PIERCE",
       "address": "",
       "date": "May 14, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD ELTON THAGGARD, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of JOHN SUTHERLAND PIERCE, late of BARTOW County, deceased, are hereby noti"
     },
     {
-      "name": "Estate of FREDRIC ALAN HARRIS, SR.",
+      "name": "Estate of JACQUELINE ANN WIRTZ",
       "address": "",
       "date": "May 14, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of FREDRIC ALAN HARRIS, SR., late of Bartow County, Georgia, deceased, are"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
-      "name": "Estate of LAWRENCE EGGERSMAN, JR.",
+      "name": "Estate of RICHARD H. COLE",
       "address": "",
       "date": "May 14, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAWRENCE EGGERSMAN, JR., deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RICHARD H. COLE, deceased, of Bartow County, Georgia, are hereby notifi"
     },
     {
-      "name": "Estate of RONALD GARRETT WOMACK",
+      "name": "Estate of EVELYN MILLICENT BROWN",
       "address": "",
       "date": "May 14, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD GARRETT WOMACK, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF EVELYN MILLICENT BROWN   All creditors of the Estat"
     },
     {
-      "name": "Estate of BETTY JEAN MATTHEWS",
+      "name": "Estate of CAROLYN S. GRIFFITH",
       "address": "",
-      "date": "May 06, 2026",
+      "date": "May 14, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Wednesday, May 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN MATTHEWS, deceased, of Bartow County, Georgia, are hereby no"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
     }
   ]
 }
