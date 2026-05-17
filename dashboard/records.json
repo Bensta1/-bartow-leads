@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-16T09:41:13.978969Z",
+  "fetched_at": "2026-05-17T09:47:40.745209Z",
   "date_range": {
-    "start": "2026-04-16",
-    "end": "2026-05-16"
+    "start": "2026-04-17",
+    "end": "2026-05-17"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure D"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure De"
     },
     {
       "name": "Estate of KENNETH DALE FERGUSON",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KENNETH DALE FERGUSON, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KENNETH DALE FERGUSON, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of JOHN SUTHERLAND PIERCE",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of JOHN SUTHERLAND PIERCE, late of BARTOW County, deceased, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of JOHN SUTHERLAND PIERCE, late of BARTOW County, deceased, are hereby not"
     },
     {
       "name": "Estate of JACQUELINE ANN WIRTZ",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby no"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of RICHARD H. COLE",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
     }
   ]
 }
