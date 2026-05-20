@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-19T11:17:48.071658Z",
+  "fetched_at": "2026-05-20T10:50:48.747522Z",
   "date_range": {
-    "start": "2026-04-19",
-    "end": "2026-05-19"
+    "start": "2026-04-20",
+    "end": "2026-05-20"
   },
   "county": "Bartow",
   "state": "GA",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate of"
     },
     {
       "name": "Estate of NICHOLAS F. ZALE",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/1"
+      "raw": "The Daily Tribune News                                     Thursday, March 26, 2026 City: Cartersville                                     County: Bartow    Attorneys at Law, as Attorneys for North Georgia National Bank 508 S. Thornton Avenue Dalton, Georgia 30720 (706) 226-0040   3/12, 3/19"
     }
   ]
 }
