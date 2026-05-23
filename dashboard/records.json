@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-22T10:51:12.513453Z",
+  "fetched_at": "2026-05-23T09:53:19.575823Z",
   "date_range": {
-    "start": "2026-04-22",
-    "end": "2026-05-22"
+    "start": "2026-04-23",
+    "end": "2026-05-23"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure D"
+      "raw": "The Daily Tribune News                                     Thursday, May 14, 2026 City: Cartersville                                     County: Bartow    Notice of Sale Under Power. State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure De"
     },
     {
       "name": "Estate of KENNETH DALE FERGUSON",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 21, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate of"
+      "raw": "The Daily Tribune News                                     Thursday, May 21, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
     },
     {
       "name": "Estate of MICHAEL DAVID SPARKS",
