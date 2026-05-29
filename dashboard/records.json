@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-28T11:38:52.088959Z",
+  "fetched_at": "2026-05-29T11:29:57.467902Z",
   "date_range": {
-    "start": "2026-04-28",
-    "end": "2026-05-28"
+    "start": "2026-04-29",
+    "end": "2026-05-29"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure Deb"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure De"
     },
     {
       "name": "Estate of JACQUELINE ANN WIRTZ",
