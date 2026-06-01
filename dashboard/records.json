@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-05-31T10:16:27.777605Z",
+  "fetched_at": "2026-06-01T13:36:30.193044Z",
   "date_range": {
-    "start": "2026-05-01",
-    "end": "2026-05-31"
+    "start": "2026-05-02",
+    "end": "2026-06-01"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of JACQUELINE ANN DAVIS ORR",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MICHAEL DAVID SPARKS, deceased, of Bartow County, Georgia, are hereby no"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MICHAEL DAVID SPARKS, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of CAROLYN S. GRIFFITH",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RICHARD H. COLE, deceased, of Bartow County, Georgia, are hereby notifi"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RICHARD H. COLE, deceased, of Bartow County, Georgia, are hereby notifie"
     }
   ]
 }
