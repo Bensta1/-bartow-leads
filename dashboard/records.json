@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-06-02T12:04:38.183936Z",
+  "fetched_at": "2026-06-03T12:42:07.755211Z",
   "date_range": {
-    "start": "2026-05-03",
-    "end": "2026-06-02"
+    "start": "2026-05-04",
+    "end": "2026-06-03"
   },
   "county": "Bartow",
   "state": "GA",
-  "total": 7,
+  "total": 6,
   "records": [
     {
       "name": "DONALD CARSON ROSIE",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby no"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of JACQUELINE ANN DAVIS ORR",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD ELTON THAGGARD, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD ELTON THAGGARD, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of MICHAEL DAVID SPARKS",
@@ -61,15 +61,6 @@
       "county": "Bartow",
       "state": "GA",
       "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
-    },
-    {
-      "name": "Estate of RICHARD H. COLE",
-      "address": "",
-      "date": "May 28, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RICHARD H. COLE, deceased, of Bartow County, Georgia, are hereby notifie"
     }
   ]
 }
