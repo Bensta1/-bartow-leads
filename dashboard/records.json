@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-06-03T12:42:07.755211Z",
+  "fetched_at": "2026-06-04T11:16:00.269088Z",
   "date_range": {
-    "start": "2026-05-04",
-    "end": "2026-06-03"
+    "start": "2026-05-05",
+    "end": "2026-06-04"
   },
   "county": "Bartow",
   "state": "GA",
-  "total": 6,
+  "total": 9,
   "records": [
     {
       "name": "DONALD CARSON ROSIE",
@@ -18,49 +18,76 @@
       "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure Deb"
     },
     {
-      "name": "Estate of JACQUELINE ANN WIRTZ",
+      "name": "Estate of EDGAR EUGENE DAVIS, III",
       "address": "",
-      "date": "May 28, 2026",
+      "date": "June 04, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN WIRTZ, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of EDGAR EUGENE DAVIS, III, deceased, of Bartow County, Georgia, are hereb"
     },
     {
       "name": "Estate of JACQUELINE ANN DAVIS ORR",
       "address": "",
-      "date": "May 28, 2026",
+      "date": "June 04, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN DAVIS ORR, deceased, of Bartow County, Georgia, are here"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN DAVIS ORR, deceased, of Bartow County, Georgia, are here"
     },
     {
-      "name": "Estate of RONALD ELTON THAGGARD",
+      "name": "Estate of MARTHA LEE",
       "address": "",
-      "date": "May 28, 2026",
+      "date": "June 04, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD ELTON THAGGARD, deceased, of Bartow County, Georgia, are hereby n"
-    },
-    {
-      "name": "Estate of MICHAEL DAVID SPARKS",
-      "address": "",
-      "date": "May 28, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MICHAEL DAVID SPARKS, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARTHA LEE, deceased, of Bartow County, Georgia, are hereby notified t"
     },
     {
       "name": "Estate of CAROLYN S. GRIFFITH",
       "address": "",
-      "date": "May 28, 2026",
+      "date": "June 04, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
+    },
+    {
+      "name": "Estate of KATHRYN MARTIN",
+      "address": "",
+      "date": "June 04, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of KATHRYN MARTIN, late of Bartow County, Georgia, deceased, are hereby n"
+    },
+    {
+      "name": "Estate of BOBBY JACK DEMPSEY",
+      "address": "",
+      "date": "June 04, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of BOBBY JACK DEMPSEY, late of Bartow County, Georgia, deceased, are here"
+    },
+    {
+      "name": "Estate of JACKY KIRK HEARD",
+      "address": "",
+      "date": "June 04, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of JACKY KIRK HEARD, late of Bartow County, Georgia, deceased, are hereby"
+    },
+    {
+      "name": "Estate of SANDRA JACKSON CANTY",
+      "address": "",
+      "date": "June 04, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SANDRA JACKSON CANTY, deceased, of Bartow County, Georgia, are hereby"
     }
   ]
 }
