@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-06-04T11:16:00.269088Z",
+  "fetched_at": "2026-06-05T11:29:07.201600Z",
   "date_range": {
-    "start": "2026-05-05",
-    "end": "2026-06-04"
+    "start": "2026-05-06",
+    "end": "2026-06-05"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARTHA LEE, deceased, of Bartow County, Georgia, are hereby notified t"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARTHA LEE, deceased, of Bartow County, Georgia, are hereby notified to"
     },
     {
       "name": "Estate of CAROLYN S. GRIFFITH",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of BOBBY JACK DEMPSEY, late of Bartow County, Georgia, deceased, are here"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of BOBBY JACK DEMPSEY, late of Bartow County, Georgia, deceased, are hereb"
     },
     {
       "name": "Estate of JACKY KIRK HEARD",
