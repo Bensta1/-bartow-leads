@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-06-06T10:04:06.755830Z",
+  "fetched_at": "2026-06-07T10:29:44.360832Z",
   "date_range": {
-    "start": "2026-05-07",
-    "end": "2026-06-06"
+    "start": "2026-05-08",
+    "end": "2026-06-07"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure De"
+      "raw": "The Daily Tribune News                                     Thursday, May 28, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER State of Georgia, County of BARTOW. Under and by virtue of the Power of Sale contained in a Deed to Secure Deb"
     },
     {
       "name": "Estate of EDGAR EUGENE DAVIS, III",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of EDGAR EUGENE DAVIS, III, deceased, of Bartow County, Georgia, are here"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of EDGAR EUGENE DAVIS, III, deceased, of Bartow County, Georgia, are hereb"
     },
     {
       "name": "Estate of JACQUELINE ANN DAVIS ORR",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN DAVIS ORR, deceased, of Bartow County, Georgia, are here"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACQUELINE ANN DAVIS ORR, deceased, of Bartow County, Georgia, are her"
     },
     {
       "name": "Estate of MARTHA LEE",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate o"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF CAROLYN S. GRIFFITH   All creditors of the Estate"
     },
     {
       "name": "Estate of KATHRYN MARTIN",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SANDRA JACKSON CANTY, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, June 04, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SANDRA JACKSON CANTY, deceased, of Bartow County, Georgia, are hereby"
     }
   ]
 }
