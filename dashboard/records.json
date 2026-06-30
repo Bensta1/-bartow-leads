@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-06-29T12:33:57.961279Z",
+  "fetched_at": "2026-06-30T10:57:03.942984Z",
   "date_range": {
-    "start": "2026-05-30",
-    "end": "2026-06-29"
+    "start": "2026-05-31",
+    "end": "2026-06-30"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notified"
+      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notifie"
     },
     {
       "name": "Estate of CONNIE LEE GRAVES",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN CLEVELAND WATERS, JR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN CLEVELAND WATERS, JR., deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of KATHY JANE BOSWELL EUBANKS",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LISA CHARLENE MILLER, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LISA CHARLENE MILLER, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of MARTHA LEE",
@@ -96,7 +96,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARTHA LEE, deceased, of Bartow County, Georgia, are hereby notified t"
+      "raw": "The Daily Tribune News                                     Thursday, June 25, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARTHA LEE, deceased, of Bartow County, Georgia, are hereby notified to"
     }
   ]
 }
