@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-07-07T10:55:05.495449Z",
+  "fetched_at": "2026-07-08T10:17:40.117795Z",
   "date_range": {
-    "start": "2026-06-07",
-    "end": "2026-07-07"
+    "start": "2026-06-08",
+    "end": "2026-07-08"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "Marietta Daily Journal                                     Friday, July 03, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-3448 MDJ-3448 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of DONNIE CHARLES JACKSON, late of Bartow County, G"
+      "raw": "Marietta Daily Journal                                     Friday, July 03, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ-3448 MDJ-3448 GPN-7 NOTICE TO DEBTORS AND  CREDITORS All creditors of the estate of DONNIE CHARLES JACKSON, late of Bartow County, Ge"
     },
     {
       "name": "Estate of LYNDA J. BALESTRA HOPKINS",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notified"
     },
     {
       "name": "Estate of MARY JANE BROWN",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of HARRISON RUFUS GENTRY, JR., late of Bartow County, Georgia, deceased, a"
+      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of HARRISON RUFUS GENTRY, JR., late of Bartow County, Georgia, deceased,"
     },
     {
       "name": "Estate of JOHN CLEVELAND WATERS, JR.",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN CLEVELAND WATERS, JR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN CLEVELAND WATERS, JR., deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of KATHY JANE BOSWELL EUBANKS",
@@ -96,7 +96,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of ALFRED WILLIAM BONNER, late of BARTOW County, deceased, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, July 02, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of ALFRED WILLIAM BONNER, late of BARTOW County, deceased, are hereby noti"
     }
   ]
 }
