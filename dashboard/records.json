@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-07-13T11:10:27.607920Z",
+  "fetched_at": "2026-07-14T09:58:05.482429Z",
   "date_range": {
-    "start": "2026-06-13",
-    "end": "2026-07-13"
+    "start": "2026-06-14",
+    "end": "2026-07-14"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notified"
+      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notifie"
     },
     {
       "name": "Estate of LYNDA J. BALESTRA HOPKINS",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of LYNDA J. BALESTRA HOPKINS, late of Bartow County, Georgia, deceased, ar"
+      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of LYNDA J. BALESTRA HOPKINS, late of Bartow County, Georgia, deceased, a"
     },
     {
       "name": "Estate of MARY JANE BROWN",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE BROWN, deceased, of Bartow County, Georgia, are hereby notif"
+      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE BROWN, deceased, of Bartow County, Georgia, are hereby notifi"
     },
     {
       "name": "Estate of CONNIE LEE GRAVES",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN CLEVELAND WATERS, JR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, July 09, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN CLEVELAND WATERS, JR., deceased, of Bartow County, Georgia, are he"
     }
   ]
 }
