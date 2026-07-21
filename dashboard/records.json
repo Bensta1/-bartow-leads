@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-07-20T10:51:49.277147Z",
+  "fetched_at": "2026-07-21T10:25:19.593634Z",
   "date_range": {
-    "start": "2026-06-20",
-    "end": "2026-07-20"
+    "start": "2026-06-21",
+    "end": "2026-07-21"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of LYNDA J. BALESTRA HOPKINS, late of Bartow County, Georgia, deceased, ar"
+      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of LYNDA J. BALESTRA HOPKINS, late of Bartow County, Georgia, deceased, a"
     },
     {
       "name": "Estate of PEGGY R. COOK",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of PEGGY R. COOK, deceased, of Bartow County, Georgia, are hereby notified"
     },
     {
       "name": "Estate of GEOFFREY ROGERS STROTHER",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of GEOFFREY ROGERS STROTHER, late of BARTOW County, deceased, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of GEOFFREY ROGERS STROTHER, late of BARTOW County, deceased, are hereby n"
     },
     {
       "name": "Estate of MARY JANE BROWN",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMES MARVIN SHEPHERD, SR., deceased, of Bartow County, Georgia, are he"
+      "raw": "The Daily Tribune News                                     Thursday, July 16, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMES MARVIN SHEPHERD, SR., deceased, of Bartow County, Georgia, are h"
     }
   ]
 }
