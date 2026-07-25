@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-07-24T10:16:20.113148Z",
+  "fetched_at": "2026-07-25T09:46:31.837257Z",
   "date_range": {
-    "start": "2026-06-24",
-    "end": "2026-07-24"
+    "start": "2026-06-25",
+    "end": "2026-07-25"
   },
   "county": "Bartow",
   "state": "GA",
-  "total": 10,
+  "total": 9,
   "records": [
     {
       "name": "Estate of GEOFFREY ROGERS STROTHER",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of GEOFFREY ROGERS STROTHER, late of BARTOW County, deceased, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of GEOFFREY ROGERS STROTHER, late of BARTOW County, deceased, are hereby n"
     },
     {
       "name": "Estate of MARY JANE BROWN",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SHEILA MARIE VALK, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SHEILA MARIE VALK, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
       "name": "Estate of HARRISON RUFUS GENTRY, JR.",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of HARRISON RUFUS GENTRY, JR., late of Bartow County, Georgia, deceased, a"
+      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of HARRISON RUFUS GENTRY, JR., late of Bartow County, Georgia, deceased,"
     },
     {
       "name": "Estate of INEZ DUTTON HOBSON",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BOBBY JACK MCDANIEL, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BOBBY JACK MCDANIEL, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of BRENDA JOYCE BURKE",
@@ -79,15 +79,6 @@
       "county": "Bartow",
       "state": "GA",
       "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BRENDA JOYCE BURKE, deceased, of Bartow County, Georgia, are hereby no"
-    },
-    {
-      "name": "Estate of WILLIAM GEARY FORD",
-      "address": "",
-      "date": "July 23, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 23, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of WILLIAM GEARY FORD, late of BARTOW County, deceased, are hereby notifie"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
