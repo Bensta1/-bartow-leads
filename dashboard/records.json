@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-07-30T10:24:28.514398Z",
+  "fetched_at": "2026-07-31T10:38:14.741616Z",
   "date_range": {
-    "start": "2026-06-30",
-    "end": "2026-07-30"
+    "start": "2026-07-01",
+    "end": "2026-07-31"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
       "name": "Estate of SHEILA MARIE VALK",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SHEILA MARIE VALK, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SHEILA MARIE VALK, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
       "name": "Estate of JACK DAVID CARTER",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACK DAVID CARTER, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACK DAVID CARTER, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
       "name": "Estate of JOSEPH CARL TURNER",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOSEPH CARL TURNER, deceased, of Bartow County, Georgia, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOSEPH CARL TURNER, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of INEZ DUTTON HOBSON",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby not"
     }
   ]
 }
