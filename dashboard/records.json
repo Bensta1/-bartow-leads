@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-01T09:58:35.789570Z",
+  "fetched_at": "2026-08-02T09:56:15.341546Z",
   "date_range": {
-    "start": "2026-07-02",
-    "end": "2026-08-01"
+    "start": "2026-07-03",
+    "end": "2026-08-02"
   },
   "county": "Bartow",
   "state": "GA",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby not"
     }
   ]
 }
