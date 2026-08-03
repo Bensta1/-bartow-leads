@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-02T09:56:15.341546Z",
+  "fetched_at": "2026-08-03T11:22:08.401640Z",
   "date_range": {
-    "start": "2026-07-03",
-    "end": "2026-08-02"
+    "start": "2026-07-04",
+    "end": "2026-08-03"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby not"
     },
     {
       "name": "Estate of SHEILA MARIE VALK",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of INEZ DUTTON HOBSON, deceased, of Bartow County, Georgia, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of INEZ DUTTON HOBSON, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of JAMES MARVIN SHEPHERD, SR.",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMES MARVIN SHEPHERD, SR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMES MARVIN SHEPHERD, SR., deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, July 30, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby noti"
     }
   ]
 }
