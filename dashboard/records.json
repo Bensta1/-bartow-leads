@@ -1,13 +1,40 @@
 {
-  "fetched_at": "2026-08-07T08:58:34.056753Z",
+  "fetched_at": "2026-08-08T08:39:44.922672Z",
   "date_range": {
-    "start": "2026-07-08",
-    "end": "2026-08-07"
+    "start": "2026-07-09",
+    "end": "2026-08-08"
   },
   "county": "Bartow",
   "state": "GA",
   "total": 9,
   "records": [
+    {
+      "name": "Estate of TAMMY JO ORTAGUS",
+      "address": "",
+      "date": "August 08, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Saturday, August 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of TAMMY JO ORTAGUS, late of Bartow County, Georgia, deceased, are hereb"
+    },
+    {
+      "name": "Estate of JOHN ALTON BURGAN",
+      "address": "",
+      "date": "August 08, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Saturday, August 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of JOHN ALTON BURGAN, late of"
+    },
+    {
+      "name": "Estate of SAMANTHA MONDRAGON",
+      "address": "",
+      "date": "August 08, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Saturday, August 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   STATE OF GEORGIA BARTOW COUNTY   All creditors of the Estate of SAMANTHA MONDRAGON, deceased, late"
+    },
     {
       "name": "Estate of GEOFFREY ROGERS STROTHER",
       "address": "",
@@ -33,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SHEILA MARIE VALK, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SHEILA MARIE VALK, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of JACK DAVID CARTER",
@@ -42,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACK DAVID CARTER, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JACK DAVID CARTER, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of JOSEPH CARL TURNER",
@@ -52,33 +79,6 @@
       "county": "Bartow",
       "state": "GA",
       "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOSEPH CARL TURNER, deceased, of Bartow County, Georgia, are hereby n"
-    },
-    {
-      "name": "Estate of INEZ DUTTON HOBSON",
-      "address": "",
-      "date": "August 06, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of INEZ DUTTON HOBSON, deceased, of Bartow County, Georgia, are hereby n"
-    },
-    {
-      "name": "Estate of MICHAEL DEAN WHITMIRE",
-      "address": "",
-      "date": "August 06, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MICHAEL DEAN WHITMIRE, deceased, of Bartow County, Georgia, are hereb"
-    },
-    {
-      "name": "Estate of JAMES O. EVANS",
-      "address": "",
-      "date": "August 06, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 06, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMES O. EVANS, deceased, of Bartow County, Georgia, are hereby notif"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
