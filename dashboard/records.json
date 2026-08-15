@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-08-14T09:06:30.275842Z",
+  "fetched_at": "2026-08-15T08:27:18.854987Z",
   "date_range": {
-    "start": "2026-07-15",
-    "end": "2026-08-14"
+    "start": "2026-07-16",
+    "end": "2026-08-15"
   },
   "county": "Bartow",
   "state": "GA",
-  "total": 9,
+  "total": 8,
   "records": [
     {
       "name": "Estate of Penny Parker Hargett late of Bartow County",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby not"
+      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby noti"
     },
     {
       "name": "Estate of SHEILA MARIE VALK",
@@ -70,15 +70,6 @@
       "county": "Bartow",
       "state": "GA",
       "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMYE LEIGH SUTTER, deceased, of Bartow County, Georgia, are hereby n"
-    },
-    {
-      "name": "Estate of JO ELLEN JENKINS HOLMES",
-      "address": "",
-      "date": "August 13, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS STATE OF GEORGIA COUNTY OF BARTOW   IN RE: ESTATE OF JO ELLEN JENKINS HOLMES   All creditors of the E"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
