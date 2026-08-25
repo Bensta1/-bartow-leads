@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-24T08:46:41.224515Z",
+  "fetched_at": "2026-08-25T08:40:36.109801Z",
   "date_range": {
-    "start": "2026-07-25",
-    "end": "2026-08-24"
+    "start": "2026-07-26",
+    "end": "2026-08-25"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby not"
     },
     {
       "name": "Estate of VIRGINIA LOUISE BILLINGS",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of VIRGINIA LOUISE BILLINGS, late of Bartow County, Georgia, deceased, a"
+      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of VIRGINIA LOUISE BILLINGS, late of Bartow County, Georgia, deceased,"
     },
     {
       "name": "Estate of JOSEPH CARL TURNER",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOSEPH CARL TURNER, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOSEPH CARL TURNER, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of Deborah Johnson Gee",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMYE LEIGH SUTTER, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMYE LEIGH SUTTER, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of KENT RAYBURN BLACK",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CLARENCE GENE JACKSON, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, August 20, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CLARENCE GENE JACKSON, deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
@@ -78,7 +78,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby no"
     }
   ]
 }
