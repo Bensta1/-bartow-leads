@@ -1,75 +1,30 @@
 {
-  "fetched_at": "2026-08-30T13:34:51.445499Z",
+  "fetched_at": "2026-08-31T15:52:32.993152Z",
   "date_range": {
-    "start": "2026-07-31",
-    "end": "2026-08-30"
+    "start": "2026-08-01",
+    "end": "2026-08-31"
   },
   "county": "Bartow",
   "state": "GA",
-  "total": 8,
+  "total": 3,
   "records": [
     {
-      "name": "Estate of Penny Parker Hargett late of Bartow County",
+      "name": "Estate of Mark Travis Collum",
       "address": "",
-      "date": "August 27, 2026",
+      "date": "August 19, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby not"
+      "raw": "The Metter Advertiser                                     Wednesday, August 19, 2026 City: Metter                                     County: Candler    gpn07Notice to Debtors and CreditorsSTATE OF GEORGIACOUNTY OF CANDLERIN RE: ESTATE OF MARK TRAVIS COLLUM, DECEASED.All creditors of the Est"
     },
     {
-      "name": "Estate of LAURETTE S. SMITH",
+      "name": "Estate of ROSA J. BRYANT All debtors and creditors of the Estate of ROSA J. BRYANT",
       "address": "",
-      "date": "August 27, 2026",
+      "date": "July 22, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAURETTE S. SMITH, deceased, of Bartow County, Georgia, are hereby no"
-    },
-    {
-      "name": "Estate of VIRGINIA LOUISE BILLINGS",
-      "address": "",
-      "date": "August 27, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of VIRGINIA LOUISE BILLINGS, late of Bartow County, Georgia, deceased, a"
-    },
-    {
-      "name": "Estate of DONALD ROSIE",
-      "address": "",
-      "date": "August 27, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of DONALD ROSIE, deceased, of Bartow County, Georgia, are hereby notifie"
-    },
-    {
-      "name": "Estate of Deborah Johnson Gee",
-      "address": "",
-      "date": "August 27, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Deborah Johnson Gee, late of Bartow County, Georgia, deceased, are he"
-    },
-    {
-      "name": "Estate of JAMYE LEIGH SUTTER",
-      "address": "",
-      "date": "August 27, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JAMYE LEIGH SUTTER, deceased, of Bartow County, Georgia, are hereby"
-    },
-    {
-      "name": "Estate of KENT RAYBURN BLACK",
-      "address": "",
-      "date": "August 27, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 27, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of KENT RAYBURN BLACK, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Clinch County News                                     Wednesday, July 22, 2026 City: Homerville                                     County: Clinch    STATE OF GEORGIA CLINCH COUNTY NOTICE TO DEBTORS AND CREDITORS RE:\tEstate of ROSA J. BRYANT All debtors and creditors of the Estate of R"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
