@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-06T11:59:33.093687Z",
+  "fetched_at": "2026-09-07T14:00:04.986279Z",
   "date_range": {
-    "start": "2026-08-07",
-    "end": "2026-09-06"
+    "start": "2026-08-08",
+    "end": "2026-09-07"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 03, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, September 03, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Penny Parker Hargett late of Bartow County, deceased, are hereby n"
     },
     {
       "name": "Estate of LAURETTE S. SMITH",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 03, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWELLYNE HILL, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, September 03, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWELLYNE HILL, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of Angela Louise Waller",
@@ -96,7 +96,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 03, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY.   All creditors of the estate of LOUISE M. PHILLIPS, deceased, late of Ba"
+      "raw": "The Daily Tribune News                                     Thursday, September 03, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY.   All creditors of the estate of LOUISE M. PHILLIPS, deceased, late of B"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
@@ -105,7 +105,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby no"
     }
   ]
 }
