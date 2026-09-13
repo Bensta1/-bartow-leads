@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-12T11:59:55.335648Z",
+  "fetched_at": "2026-09-13T13:08:04.359657Z",
   "date_range": {
-    "start": "2026-08-13",
-    "end": "2026-09-12"
+    "start": "2026-08-14",
+    "end": "2026-09-13"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are"
     },
     {
       "name": "Estate of LAURETTE S. SMITH",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAURETTE S. SMITH, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAURETTE S. SMITH, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of RONALD STEVE COLLUM",
