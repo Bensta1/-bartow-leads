@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-14T14:45:30.912688Z",
+  "fetched_at": "2026-09-15T13:09:50.512146Z",
   "date_range": {
-    "start": "2026-08-15",
-    "end": "2026-09-14"
+    "start": "2026-08-16",
+    "end": "2026-09-15"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are"
+      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are h"
     },
     {
       "name": "Estate of LAURETTE S. SMITH",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD STEVE COLLUM, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD STEVE COLLUM, deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of BETTY J. SANGIUOLO ALSO KNOWN AS BETTY JACQUELYN SANGIUOLO",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY J. SANGIUOLO ALSO KNOWN AS BETTY JACQUELYN SANGIUOLO, decea"
+      "raw": "The Daily Tribune News                                     Thursday, September 10, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY J. SANGIUOLO ALSO KNOWN AS BETTY JACQUELYN SANGIUOLO, deceas"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
