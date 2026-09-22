@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-21T14:52:31.282682Z",
+  "fetched_at": "2026-09-22T13:08:49.518313Z",
   "date_range": {
-    "start": "2026-08-22",
-    "end": "2026-09-21"
+    "start": "2026-08-23",
+    "end": "2026-09-22"
   },
   "county": "Bartow",
   "state": "GA",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAURETTE S. SMITH, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of LAURETTE S. SMITH, deceased, of Bartow County, Georgia, are hereb"
     },
     {
       "name": "Estate of BETTY JEAN WOOD TANNER",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are"
     },
     {
       "name": "Estate of JEWEL LYNN LITTLE",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of BOBBY RASTUS INGRAM",
