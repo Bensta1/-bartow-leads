@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-22T13:08:49.518313Z",
+  "fetched_at": "2026-09-23T13:22:54.120519Z",
   "date_range": {
-    "start": "2026-08-23",
-    "end": "2026-09-22"
+    "start": "2026-08-24",
+    "end": "2026-09-23"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are"
+      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are h"
     },
     {
       "name": "Estate of JEWEL LYNN LITTLE",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD STEVE COLLUM, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, September 17, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD STEVE COLLUM, deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of JAMES WILLIAM PATTON, JR.",
@@ -87,7 +87,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby no"
     }
   ]
 }
