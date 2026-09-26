@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-25T13:16:38.950190Z",
+  "fetched_at": "2026-09-26T12:41:41.472412Z",
   "date_range": {
-    "start": "2026-08-26",
-    "end": "2026-09-25"
+    "start": "2026-08-27",
+    "end": "2026-09-26"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are"
+      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are h"
     },
     {
       "name": "Estate of BETTY JEAN WOOD TANNER",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are"
     },
     {
       "name": "Estate of JEWEL LYNN LITTLE",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of BOBBY RASTUS INGRAM",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BOBBY RASTUS INGRAM, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BOBBY RASTUS INGRAM, deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of RONALD STEVE COLLUM",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD STEVE COLLUM, deceased, of Bartow County, Georgia, are here"
+      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD STEVE COLLUM, deceased, of Bartow County, Georgia, are her"
     },
     {
       "name": "Estate of JAMES WILLIAM PATTON, JR.",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of IAN JESUS RODRIGUEZ, late of Bartow County, Georgia, deceased, are"
+      "raw": "The Daily Tribune News                                     Thursday, September 24, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of IAN JESUS RODRIGUEZ, late of Bartow County, Georgia, deceased, ar"
     },
     {
       "name": "Estate of MARY JANE SHERIFF",
@@ -87,7 +87,7 @@
       "doc_type": "Sheriff's/Marshal's Sales",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, August 13, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MARY JANE SHERIFF, deceased, of Bartow County, Georgia, are hereby no"
     }
   ]
 }
