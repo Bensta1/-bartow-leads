@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-05T16:49:40.681996Z",
+  "fetched_at": "2026-10-06T14:46:13.164011Z",
   "date_range": {
-    "start": "2026-09-05",
-    "end": "2026-10-05"
+    "start": "2026-09-06",
+    "end": "2026-10-06"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 01, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are he"
+      "raw": "The Daily Tribune News                                     Thursday, October 01, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ALVIN EUGENE MCTAGGART, deceased, of Bartow County, Georgia, are her"
     },
     {
       "name": "Estate of LINDA FAYE DANIELS",
