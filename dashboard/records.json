@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-08T15:14:35.255048Z",
+  "fetched_at": "2026-10-09T15:00:49.592240Z",
   "date_range": {
-    "start": "2026-09-08",
-    "end": "2026-10-08"
+    "start": "2026-09-09",
+    "end": "2026-10-09"
   },
   "county": "Bartow",
   "state": "GA",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of JEWEL LYNN LITTLE",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of BOBBY RASTUS INGRAM",
