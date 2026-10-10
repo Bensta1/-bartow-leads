@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-09T15:00:49.592240Z",
+  "fetched_at": "2026-10-10T14:15:43.210097Z",
   "date_range": {
-    "start": "2026-09-09",
-    "end": "2026-10-09"
+    "start": "2026-09-10",
+    "end": "2026-10-10"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late"
+      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late o"
     },
     {
       "name": "Estate of LINDA FAYE DANIELS",
