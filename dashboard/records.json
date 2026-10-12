@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-11T14:40:34.713434Z",
+  "fetched_at": "2026-10-12T17:24:48.852654Z",
   "date_range": {
-    "start": "2026-09-11",
-    "end": "2026-10-11"
+    "start": "2026-09-12",
+    "end": "2026-10-12"
   },
   "county": "Bartow",
   "state": "GA",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BETTY JEAN WOOD TANNER, deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of JEWEL LYNN LITTLE",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEWEL LYNN LITTLE, deceased, of Bartow County, Georgia, are hereby n"
     },
     {
       "name": "Estate of BOBBY RASTUS INGRAM",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BOBBY RASTUS INGRAM, deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, October 08, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of BOBBY RASTUS INGRAM, deceased, of Bartow County, Georgia, are hereb"
     }
   ]
 }
