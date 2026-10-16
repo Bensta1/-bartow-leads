@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-15T13:05:58.306022Z",
+  "fetched_at": "2026-10-16T13:02:17.004119Z",
   "date_range": {
-    "start": "2026-09-15",
-    "end": "2026-10-15"
+    "start": "2026-09-16",
+    "end": "2026-10-16"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN B. SOWELL, JR., deceased, of Bartow County, Georgia, are hereby"
+      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN B. SOWELL, JR., deceased, of Bartow County, Georgia, are hereb"
     },
     {
       "name": "Estate of LINDA FAYE DANIELS",
