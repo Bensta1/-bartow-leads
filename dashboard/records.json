@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-19T15:18:14.810396Z",
+  "fetched_at": "2026-10-20T13:22:34.100881Z",
   "date_range": {
-    "start": "2026-09-19",
-    "end": "2026-10-19"
+    "start": "2026-09-20",
+    "end": "2026-10-20"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Mary Allison McArthur, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Mary Allison McArthur, deceased, of Bartow County, Georgia, are here"
     },
     {
       "name": "Estate of WILLIAM HERSHBERGER",
