@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-20T13:22:34.100881Z",
+  "fetched_at": "2026-10-21T13:27:55.678009Z",
   "date_range": {
-    "start": "2026-09-20",
-    "end": "2026-10-20"
+    "start": "2026-09-21",
+    "end": "2026-10-21"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ROBERT DEAN TEDRICK, JR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ROBERT DEAN TEDRICK, JR., deceased, of Bartow County, Georgia, are"
     },
     {
       "name": "Estate of Mary Allison McArthur",
@@ -33,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late o"
+      "raw": "The Daily Tribune News                                     Thursday, October 15, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late"
     },
     {
       "name": "Estate of JOHN B. SOWELL, JR.",
