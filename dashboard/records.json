@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-23T13:06:04.768898Z",
+  "fetched_at": "2026-10-24T12:28:30.662889Z",
   "date_range": {
-    "start": "2026-09-23",
-    "end": "2026-10-23"
+    "start": "2026-09-24",
+    "end": "2026-10-24"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ROBERT DEAN TEDRICK, JR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ROBERT DEAN TEDRICK, JR., deceased, of Bartow County, Georgia, are"
     },
     {
       "name": "Estate of MARTA SUE OWENS",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of DOYLE L. COLE, deceased, of Bartow County, Georgia, are hereby noti"
+      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of DOYLE L. COLE, deceased, of Bartow County, Georgia, are hereby notif"
     },
     {
       "name": "Estate of MICHAEL P. MAHONEY, SR.",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MICHAEL P. MAHONEY, SR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of MICHAEL P. MAHONEY, SR., deceased, of Bartow County, Georgia, are he"
     }
   ]
 }
