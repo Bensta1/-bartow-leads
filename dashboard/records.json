@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-25T12:58:49.296886Z",
+  "fetched_at": "2026-10-26T14:52:45.012972Z",
   "date_range": {
-    "start": "2026-09-25",
-    "end": "2026-10-25"
+    "start": "2026-09-26",
+    "end": "2026-10-26"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN B. SOWELL, JR., deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN B. SOWELL, JR., deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of ROBERT DEAN TEDRICK, JR.",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late"
+      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late o"
     },
     {
       "name": "Estate of LINDA FAYE DANIELS",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of DOYLE L. COLE, deceased, of Bartow County, Georgia, are hereby notif"
+      "raw": "The Daily Tribune News                                     Thursday, October 22, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of DOYLE L. COLE, deceased, of Bartow County, Georgia, are hereby noti"
     },
     {
       "name": "Estate of MICHAEL P. MAHONEY, SR.",
