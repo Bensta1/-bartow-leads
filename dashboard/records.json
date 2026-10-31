@@ -1,13 +1,22 @@
 {
-  "fetched_at": "2026-10-30T14:51:46.266352Z",
+  "fetched_at": "2026-10-31T14:19:16.773810Z",
   "date_range": {
-    "start": "2026-09-30",
-    "end": "2026-10-30"
+    "start": "2026-10-01",
+    "end": "2026-10-31"
   },
   "county": "Bartow",
   "state": "GA",
   "total": 8,
   "records": [
+    {
+      "name": "Estate of Willie Howard late of Bartow County",
+      "address": "",
+      "date": "October 31, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "The Daily Tribune News                                     Saturday, October 31, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of Willie Howard late of Bartow County, deceased, are hereby notified t"
+    },
     {
       "name": "Estate of WILLIAM HERSHBERGER",
       "address": "",
@@ -15,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 29, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late"
+      "raw": "The Daily Tribune News                                     Thursday, October 29, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of WILLIAM HERSHBERGER, late o"
     },
     {
       "name": "Estate of MARTA SUE OWENS",
@@ -24,7 +33,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 29, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of MARTA SUE OWENS,late of Ba"
+      "raw": "The Daily Tribune News                                     Thursday, October 29, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of MARTA SUE OWENS,late of Bar"
     },
     {
       "name": "Estate of EDWARD E. WALRAVEN",
@@ -70,15 +79,6 @@
       "county": "Bartow",
       "state": "GA",
       "raw": "The Daily Tribune News                                     Thursday, October 29, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WALTER EDWARD FREEMAN, deceased, of Bartow County, Georgia, are here"
-    },
-    {
-      "name": "Estate of WALI A. MOHAMMED",
-      "address": "",
-      "date": "October 29, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, October 29, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of WALI A. MOHAMMED, late of Bartow County, Georgia, deceased, are her"
     }
   ]
 }
