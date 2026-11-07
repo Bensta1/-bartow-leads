@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-06T15:41:34.882175Z",
+  "fetched_at": "2026-11-07T14:42:03.515490Z",
   "date_range": {
-    "start": "2026-10-07",
-    "end": "2026-11-06"
+    "start": "2026-10-08",
+    "end": "2026-11-07"
   },
   "county": "Bartow",
   "state": "GA",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Larry Lee Sage late of Bartow County, deceased, are hereby notifie"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Larry Lee Sage late of Bartow County, deceased, are hereby notified"
     },
     {
       "name": "Estate of CALVIN H. EVANS",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CALVIN H. EVANS, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CALVIN H. EVANS, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of WALTER EDWARD FREEMAN",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WALTER EDWARD FREEMAN, deceased, of Bartow County, Georgia, are he"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WALTER EDWARD FREEMAN, deceased, of Bartow County, Georgia, are her"
     },
     {
       "name": "Estate of WALI A. MOHAMMED",
