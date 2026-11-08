@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-07T14:42:03.515490Z",
+  "fetched_at": "2026-11-08T14:47:36.845098Z",
   "date_range": {
-    "start": "2026-10-08",
-    "end": "2026-11-07"
+    "start": "2026-10-09",
+    "end": "2026-11-08"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security D"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security De"
     },
     {
       "name": "Estate of MARTA SUE OWENS",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of MARTA SUE OWENS,late of Ba"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   GEORGIA, BARTOW COUNTY NOTICE TO DEBTORS All creditors of the Estate of MARTA SUE OWENS,late of B"
     },
     {
       "name": "Estate of Willie Howard late of Bartow County",
@@ -42,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Larry Lee Sage late of Bartow County, deceased, are hereby notified"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    Notice to Debtors and Creditors   All creditors of the estate of Larry Lee Sage late of Bartow County, deceased, are hereby notifie"
     },
     {
       "name": "Estate of CALVIN H. EVANS",
@@ -60,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WALTER EDWARD FREEMAN, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of WALTER EDWARD FREEMAN, deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of WALI A. MOHAMMED",
@@ -69,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of WALI A. MOHAMMED, late of Bartow County, Georgia, deceased, are her"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the estate of WALI A. MOHAMMED, late of Bartow County, Georgia, deceased, are he"
     },
     {
       "name": "Estate of RONALD LEE EDWARDS, SR.",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, November 05, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are"
     }
   ]
 }
