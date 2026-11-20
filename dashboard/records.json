@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-19T17:04:50.884165Z",
+  "fetched_at": "2026-11-20T16:43:45.237837Z",
   "date_range": {
-    "start": "2026-10-20",
-    "end": "2026-11-19"
+    "start": "2026-10-21",
+    "end": "2026-11-20"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,16 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security De"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security D"
+    },
+    {
+      "name": "Estate of THOMAS KEITH ADAMS",
+      "address": "07 NOTICE TO DEBTORS AND  CREDITORS   \tAll creditors of the estate of THOMAS KEITH ADAMS",
+      "date": "November 20, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "Marietta Daily Journal                                     Friday, November 20, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ7027 MDJ7027 gpn07 NOTICE TO DEBTORS AND  CREDITORS   \tAll creditors of the estate of THOMAS KEITH ADAMS, late of Bartow County, G"
     },
     {
       "name": "Estate of Willie Howard late of Bartow County",
@@ -33,7 +42,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CALVIN H. EVANS, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of CALVIN H. EVANS, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of GLENDA MARIE HUMPHREY",
@@ -42,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of GLENDA MARIE HUMPHREY, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of GLENDA MARIE HUMPHREY, deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of JEFFREY M. BRIDGES",
@@ -51,7 +60,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEFFREY M. BRIDGES, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JEFFREY M. BRIDGES, deceased, of Bartow County, Georgia, are hereby"
     },
     {
       "name": "Estate of Cheryl Lynn Nordin",
@@ -60,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   State of Georgia County of Bartow   All creditors of the estate of Cheryl Lynn Nordin, deceased, l"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   State of Georgia County of Bartow   All creditors of the estate of Cheryl Lynn Nordin, deceased,"
     },
     {
       "name": "Estate of RONALD LEE EDWARDS, SR.",
@@ -69,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are h"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are"
     },
     {
       "name": "Estate of Michael Sisk",
@@ -88,15 +97,6 @@
       "county": "Bartow",
       "state": "GA",
       "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of TROY THOMAS ELLIOTT, deceased, of Bartow County, Georgia, are here"
-    },
-    {
-      "name": "Estate of JOHN NEAL ATKINSON",
-      "address": "",
-      "date": "November 19, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of JOHN NEAL ATKINSON, deceased, of Bartow County, Georgia, are hereb"
     }
   ]
 }
