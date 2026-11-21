@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-20T16:43:45.237837Z",
+  "fetched_at": "2026-11-21T15:55:38.663123Z",
   "date_range": {
-    "start": "2026-10-21",
-    "end": "2026-11-20"
+    "start": "2026-10-22",
+    "end": "2026-11-21"
   },
   "county": "Bartow",
   "state": "GA",
@@ -24,7 +24,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "Marietta Daily Journal                                     Friday, November 20, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ7027 MDJ7027 gpn07 NOTICE TO DEBTORS AND  CREDITORS   \tAll creditors of the estate of THOMAS KEITH ADAMS, late of Bartow County, G"
+      "raw": "Marietta Daily Journal                                     Friday, November 20, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ7027 MDJ7027 gpn07 NOTICE TO DEBTORS AND  CREDITORS   \tAll creditors of the estate of THOMAS KEITH ADAMS, late of Bartow County,"
     },
     {
       "name": "Estate of Willie Howard late of Bartow County",
@@ -78,7 +78,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are h"
     },
     {
       "name": "Estate of Michael Sisk",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    STATE OF GEORGIA   IN RE: ESTATE OF MICHAEL SISK, Deceased   All creditors of the estate of Michael Sisk, deceased, late of Bartow"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    STATE OF GEORGIA   IN RE: ESTATE OF MICHAEL SISK, Deceased   All creditors of the estate of Michael Sisk, deceased, late of Bartow C"
     },
     {
       "name": "Estate of TROY THOMAS ELLIOTT",
