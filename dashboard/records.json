@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-23T19:52:28.776297Z",
+  "fetched_at": "2026-11-24T19:21:21.711857Z",
   "date_range": {
-    "start": "2026-10-24",
-    "end": "2026-11-23"
+    "start": "2026-10-25",
+    "end": "2026-11-24"
   },
   "county": "Bartow",
   "state": "GA",
@@ -15,7 +15,7 @@
       "doc_type": "Foreclosures",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security De"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security D"
     },
     {
       "name": "Estate of THOMAS KEITH ADAMS",
@@ -51,7 +51,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of GLENDA MARIE HUMPHREY, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of GLENDA MARIE HUMPHREY, deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of JEFFREY M. BRIDGES",
@@ -87,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    STATE OF GEORGIA   IN RE: ESTATE OF MICHAEL SISK, Deceased   All creditors of the estate of Michael Sisk, deceased, late of Bartow"
+      "raw": "The Daily Tribune News                                     Thursday, November 19, 2026 City: Cartersville                                     County: Bartow    STATE OF GEORGIA   IN RE: ESTATE OF MICHAEL SISK, Deceased   All creditors of the estate of Michael Sisk, deceased, late of Bartow C"
     },
     {
       "name": "Estate of TROY THOMAS ELLIOTT",
