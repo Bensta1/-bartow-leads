@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-26T18:09:05.207303Z",
+  "fetched_at": "2026-11-27T17:52:16.761732Z",
   "date_range": {
-    "start": "2026-10-27",
-    "end": "2026-11-26"
+    "start": "2026-10-28",
+    "end": "2026-11-27"
   },
   "county": "Bartow",
   "state": "GA",
@@ -18,13 +18,22 @@
       "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE OF SALE UNDER POWER   STATE OF GEORGIA COUNTY OF BARTOW   Under and by virtue of the Power of Sale contained in a Security De"
     },
     {
+      "name": "Estate of THOMAS KEITH ADAMS",
+      "address": "07 NOTICE TO DEBTORS AND  CREDITORS   \tAll creditors of the estate of THOMAS KEITH ADAMS",
+      "date": "November 27, 2026",
+      "doc_type": "Debtors and Creditors",
+      "county": "Bartow",
+      "state": "GA",
+      "raw": "Marietta Daily Journal                                     Friday, November 27, 2026 City: Marietta                                     County: Cobb     gpn07 MDJ7027 MDJ7027 gpn07 NOTICE TO DEBTORS AND  CREDITORS   \tAll creditors of the estate of THOMAS KEITH ADAMS, late of Bartow County,"
+    },
+    {
       "name": "Estate of SUE D. MCFADDEN",
       "address": "",
       "date": "November 26, 2026",
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SUE D. MCFADDEN, deceased, of Bartow County, Georgia, are hereby n"
+      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of SUE D. MCFADDEN, deceased, of Bartow County, Georgia, are hereby no"
     },
     {
       "name": "Estate of JACK PHILLIP BROWNLOW",
@@ -60,7 +69,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of GLENDA MARIE HUMPHREY, deceased, of Bartow County, Georgia, are her"
+      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of GLENDA MARIE HUMPHREY, deceased, of Bartow County, Georgia, are he"
     },
     {
       "name": "Estate of JEFFREY M. BRIDGES",
@@ -78,7 +87,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   State of Georgia County of Bartow   All creditors of the estate of Cheryl Lynn Nordin, deceased,"
+      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   State of Georgia County of Bartow   All creditors of the estate of Cheryl Lynn Nordin, deceased, l"
     },
     {
       "name": "Estate of RONALD LEE EDWARDS, SR.",
@@ -87,7 +96,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are"
+      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of RONALD LEE EDWARDS, SR., deceased, of Bartow County, Georgia, are h"
     },
     {
       "name": "Estate of ARNOLD EDWARD HARNER",
@@ -96,16 +105,7 @@
       "doc_type": "Debtors and Creditors",
       "county": "Bartow",
       "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ARNOLD EDWARD HARNER, deceased, of Bartow County, Georgia, are her"
-    },
-    {
-      "name": "Estate of TROY THOMAS ELLIOTT",
-      "address": "",
-      "date": "November 26, 2026",
-      "doc_type": "Debtors and Creditors",
-      "county": "Bartow",
-      "state": "GA",
-      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of TROY THOMAS ELLIOTT, deceased, of Bartow County, Georgia, are hereb"
+      "raw": "The Daily Tribune News                                     Thursday, November 26, 2026 City: Cartersville                                     County: Bartow    NOTICE TO DEBTORS AND CREDITORS   All creditors of the Estate of ARNOLD EDWARD HARNER, deceased, of Bartow County, Georgia, are here"
     }
   ]
 }
